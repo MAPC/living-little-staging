@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/living-little-staging",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Living Little Staging`,
+    description: `Staging site for MAPC's Living Little toolkit`,
+    author: `@MAPCMetroBoston`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
