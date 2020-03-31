@@ -1,0 +1,44 @@
+.footer {
+  background-color: $color_bg-violet;
+  color: $color_font-contrast;
+  display: grid;
+  font-family: 'Tw Cen MT';
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 5rem;
+
+  &__column {
+    max-width: 200px;
+  }
+
+  &__title {
+    font-family: 'Tw Cen MT Bold';
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__list-item {
+    list-style-type: none;
+  }
+
+  &__link {
+    color: $color_font-contrast;
+    text-decoration: none;
+  }
+
+  &__social-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+}
+
+.mapc-logo {
+  height: 45px;
+}
+
