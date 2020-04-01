@@ -1,19 +1,32 @@
 @font-face {
+  font-display: block;
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fa-solid-900.eot');
+  src: url('fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('fonts/fa-solid-900.woff2') format('woff2'),
+  url('fonts/fa-solid-900.woff') format('woff'),
+  url('fonts/fa-solid-900.ttf') format('truetype'),
+  url('fonts/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+@font-face {
   font-family: 'Tw Cen MT';
-  src: url('../fonts/TCM.ttf');
+  src: url('fonts/TCM.ttf');
 }
 
 @font-face {
   font-family: 'Tw Cen MT Bold';
-  src: url('../fonts/TCB.ttf');
+  src: url('fonts/TCB.ttf');
 }
 
 @font-face {
   font-family: 'Tw Cen MT Condensed';
-  src: url('../fonts/TCCM.ttf');
+  src: url('fonts/TCCM.ttf');
 }
 
 @font-face {
   font-family: 'Tw Cen MT Condensed Bold';
-  src: url('../fonts/TCCB.ttf');
+  src: url('fonts/TCCB.ttf');
 }

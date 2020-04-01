@@ -46,9 +46,6 @@ const Footer = () => {
             <a href="https://www.mapc.org/about-mapc/staff/" className="footer__link">Staff</a>
           </li>
           <li className="footer__list-item">
-            <a href="#" className="footer__link">MetroFuture</a>
-          </li>
-          <li className="footer__list-item">
             <a href="https://datacommon.mapc.org/" className="footer__link">DataCommon</a>
           </li>
           <li className="footer__list-item">
