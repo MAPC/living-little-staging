@@ -1,7 +1,9 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter, faInstagram, faFacebookSquare, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
+import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTwitter, faInstagram, faFacebookSquare, faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
@@ -15,7 +17,7 @@ const Footer = () => {
         }
       }
     }
-`)
+`);
   return (
     <footer className="footer">
       <section className="footer__column">
@@ -59,8 +61,10 @@ const Footer = () => {
       <section className="footer__column">
         <h3 className="footer__title">Contact Us</h3>
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place,</a>
-        <br /><a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>
-        <br /><a href="tel:617-933-0700" className="footer__link">617-933-0700</a>
+        <br />
+        <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>
+        <br />
+        <a href="tel:617-933-0700" className="footer__link">617-933-0700</a>
         <p>
           <a href="https://metrocommon.mapc.org" className="footer__link">metrocommon.mapc.org</a>
         </p>
@@ -80,7 +84,7 @@ const Footer = () => {
         </div>
       </section>
     </footer>
-  )
+  );
 };
 
-export default Footer
+export default Footer;
