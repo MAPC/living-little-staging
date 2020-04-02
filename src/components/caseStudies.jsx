@@ -1,8 +1,8 @@
 import React from 'react';
 
 const CaseStudies = () => (
-  <section>
-    A component displaying a Slides carousel for case studies
+  <section className="section">
+    <h2 className="h2">Case studies</h2>
   </section>
 );
 

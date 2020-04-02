@@ -7,7 +7,7 @@ const OpportunityButton = ({ description }) => (
   <aside className="opportunity">
     <FontAwesomeIcon icon={faLightbulb} className="opportunity__icon" />
     <div>
-      <h4 className="opportunity__title">Opportunity</h4>
+      <h4 className="h4 opportunity__title">Opportunity</h4>
       {description}
     </div>
   </aside>

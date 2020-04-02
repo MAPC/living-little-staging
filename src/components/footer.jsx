@@ -21,14 +21,14 @@ const Footer = () => {
   return (
     <footer className="footer">
       <section className="footer__column">
-        <h3 className="footer__title">About MAPC</h3>
+        <h3 className="h3 footer__title">About MAPC</h3>
         <p>The Metropolitan Area Planning Council (MAPC) is the regional planning agency serving the people who live and work in the 101 cities and towns of Metropolitan Boston.</p>
         <a href="https://mapc.org" className="footer__link">
           <img src={data.allFile.edges[0].node.publicURL} alt="MAPC Logo" className="mapc-logo" />
         </a>
       </section>
       <section className="footer__column">
-        <h3 className="footer__title">Quick Links</h3>
+        <h3 className="h3 footer__title">Quick Links</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
             <a href="https://metrocommon.mapc.org/" className="footer__link">MetroCommon Home</a>
@@ -42,7 +42,7 @@ const Footer = () => {
         </ul>
       </section>
       <section className="footer__column">
-        <h3 className="footer__title">Explore</h3>
+        <h3 className="h3 footer__title">Explore</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
             <a href="https://www.mapc.org/about-mapc/staff/" className="footer__link">Staff</a>
@@ -59,7 +59,7 @@ const Footer = () => {
         </ul>
       </section>
       <section className="footer__column">
-        <h3 className="footer__title">Contact Us</h3>
+        <h3 className="h3 footer__title">Contact Us</h3>
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place,</a>
         <br />
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const TypologyGrid = () => (
-  <section>
-    Pinterest-like grid displaying typologies
+  <section className="section">
+    <h2 className="h2">What is living little?</h2>
   </section>
 );
 

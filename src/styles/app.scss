@@ -1,14 +1,5 @@
 @import 'fonts';
 @import 'vars';
+@import 'defaults';
 @import 'footer';
 @import 'typology-select';
-
-body {
-  font-family: 'Tw Cen MT';
-  margin: 0;
-}
-
-.main {
-  margin: 0 auto;
-  max-width: 1000px;
-}

@@ -20,10 +20,10 @@ const Overview = ({ typology }) => {
   };
 
   return (
-    <>
+    <article className="article">
       <p>{definitions[typology]}</p>
       <img src={overviewGif[typology]} className="typology-select__overview-gif" />
-    </>
+    </article>
   );
 };
 
