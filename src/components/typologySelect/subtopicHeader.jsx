@@ -10,10 +10,10 @@ const SubtopicHeader = ({ title }) => {
   return (
     <div className="subtopic__wrapper">
       <h3 className="subtopic__title">{title}</h3>
-      <div className="subtopic__highlight" style={{ width: `${highlightWidth[title]}px`}} />
+      <div className="subtopic__highlight" style={{ width: `${highlightWidth[title]}px` }} />
     </div>
   );
-}
+};
 
 SubtopicHeader.propTypes = {
   title: PropTypes.string.isRequired,
