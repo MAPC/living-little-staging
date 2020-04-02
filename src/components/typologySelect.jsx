@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import Overview from './typologySelect/overview';
 import History from './typologySelect/history';
 import PotentialLayouts from './typologySelect/potentialLayouts';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 const TypologySelect = () => {
   const [typology, setTypology] = useState('adu');
@@ -16,7 +19,7 @@ const TypologySelect = () => {
 
   return (
     <section className="section">
-      <h2 className="h2 typology-select__header">
+      <h2 className="h2 typology-select__header" id="select">
         Explore
         {' '}
         {typology === 'adu' ? 'an ' : 'a '}
@@ -47,6 +50,10 @@ const TypologySelect = () => {
       <Overview typology={typology} />
       <History typology={typology} />
       <PotentialLayouts typology={typology} />
+      <AnchorLink to="/#select" className="anchor__wrapper">
+        <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
+        <span className="anchor__helper-text">Select another typology</span>
+      </AnchorLink>
     </section>
   );
 };

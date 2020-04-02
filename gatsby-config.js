@@ -6,6 +6,7 @@ module.exports = {
     author: '@MAPCMetroBoston',
   },
   plugins: [
+    'gatsby-plugin-anchor-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',

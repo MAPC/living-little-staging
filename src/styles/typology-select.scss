@@ -90,3 +90,23 @@
     margin-right: 20px;
   }
 }
+
+.anchor {
+  &__wrapper {
+    align-items: center;
+    color: $color_font-title;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    text-decoration: none;
+    width: 5.75rem;
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+
+  &__helper-text {
+    text-align: center;
+  }
+}
