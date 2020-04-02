@@ -1,67 +1,91 @@
 {
   "adu": {
     "history": {
-      "one": "Nunc faucibus mi in efficitur tincidunt. Praesent imperdiet lacinia metus.",
-      "two": "Quisque et metus augue. Integer ex mi, luctus vel enim molestie, accumsan consectetur leo."
+      "titleOne": "Curabitur tempor",
+      "titleTwo": "Blandit neque",
+      "textOne": "Nunc faucibus mi in efficitur tincidunt. Praesent imperdiet lacinia metus.",
+      "textTwo": "Quisque et metus augue. Integer ex mi, luctus vel enim molestie, accumsan consectetur leo."
     },
       "potential layouts": {
-        "one": "Nunc vulputate tellus eget urna pretium cursus.",
-        "two": "Mauris tristique, augue eu maximus semper, massa sapien tristique felis, et maximus neque nunc quis augue."
+        "titleOne": "Curabitur tempor",
+        "titleTwo": "Blandit neque",
+        "textOne": "Nunc vulputate tellus eget urna pretium cursus.",
+        "textTwo": "Mauris tristique, augue eu maximus semper, massa sapien tristique felis, et maximus neque nunc quis augue."
       }
     },
 
   "tiny house": {
     "history": {
-      "one": "Nullam lectus enim, viverra quis placerat eget, pharetra sit amet neque.",
-      "two": "Aenean eu leo justo. Nullam sollicitudin dapibus cursus. Praesent maximus egestas sem, eget imperdiet ex porta nec."
+      "titleOne": "Ac interdum",
+      "titleTwo": "Proin sem",
+      "textOne": "Nullam lectus enim, viverra quis placerat eget, pharetra sit amet neque.",
+      "textTwo": "Aenean eu leo justo. Nullam sollicitudin dapibus cursus. Praesent maximus egestas sem, eget imperdiet ex porta nec."
     },
     "potential layouts": {
-      "one": "Vestibulum vitae arcu eu eros interdum sagittis et sit amet tellus. In pharetra ultricies cursus.",
-      "two": "Mauris nec enim fermentum, dapibus mauris a, maximus ipsum."
+      "titleOne": "Tellus fringilla",
+      "titleTwo": "Sed massa non",
+      "textOne": "Vestibulum vitae arcu eu eros interdum sagittis et sit amet tellus. In pharetra ultricies cursus.",
+      "textTwo": "Mauris nec enim fermentum, dapibus mauris a, maximus ipsum."
     }
   },
 
   "row house": {
     "history": {
-      "one": "Etiam sodales orci ut sapien ultrices efficitur. Vestibulum bibendum sit amet quam eu tempus.",
-      "two": "Duis hendrerit pharetra congue. Nam euismod enim sagittis."
+      "titleOne": "Convallis elementum",
+      "titleTwo": "Lorem donec",
+      "textOne": "Etiam sodales orci ut sapien ultrices efficitur. Vestibulum bibendum sit amet quam eu tempus.",
+      "textTwo": "Duis hendrerit pharetra congue. Nam euismod enim sagittis."
     },
     "potential layouts": {
-      "one": "Ultrices lacus a, iaculis lacus. Etiam laoreet sodales dui, id semper sem molestie suscipit.",
-      "two": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
+      "titleOne": "Nec iaculis erat",
+      "titleTwo": "Morbi imperdie",
+      "textOne": "Ultrices lacus a, iaculis lacus. Etiam laoreet sodales dui, id semper sem molestie suscipit.",
+      "textTwo": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
     }
   },
 
    "mixed-use": {
     "history": {
-        "one": "Phasellus semper nibh et diam euismod dapibus. Nullam pellentesque quis velit ut consequat.",
-        "two": "Morbi vitae sem sagittis, euismod dolor vitae, sodales felis. In sit amet scelerisque odio, vel dignissim nisl."
+        "titleOne": "Curabitur tempor",
+        "titleTwo": "Eget ipsum",
+        "textOne": "Phasellus semper nibh et diam euismod dapibus. Nullam pellentesque quis velit ut consequat.",
+        "textTwo": "Morbi vitae sem sagittis, euismod dolor vitae, sodales felis. In sit amet scelerisque odio, vel dignissim nisl."
       },
       "potential layouts": {
-        "one": "Praesent lacinia arcu odio, non volutpat nibh pellentesque in.",
-        "two": "Vivamus nec nisi et ipsum posuere eleifend quis sit amet turpis. Etiam blandit tincidunt rhoncus."
+        "titleOne": "Sit amet pharetra",
+        "titleTwo": "Integer pretium",
+        "textOne": "Praesent lacinia arcu odio, non volutpat nibh pellentesque in.",
+        "textTwo": "Vivamus nec nisi et ipsum posuere eleifend quis sit amet turpis. Etiam blandit tincidunt rhoncus."
       }
   },
 
    "cottage": {
     "history": {
-      "one": "Aenean risus tortor, consequat fringilla augue quis, rhoncus maximus ante. Fusce lacinia pretium nisi in dignissim.",
-      "two": "Nulla ut lectus leo. Suspendisse quis lacinia ipsum. Aenean sit amet tellus sapien."
+      "titleOne": "Ipsum ac",
+      "titleTwo": "Leo tristique",
+      "textOne": "Aenean risus tortor, consequat fringilla augue quis, rhoncus maximus ante. Fusce lacinia pretium nisi in dignissim.",
+      "textTwo": "Nulla ut lectus leo. Suspendisse quis lacinia ipsum. Aenean sit amet tellus sapien."
     },
     "potential layouts": {
-      "one": "Phasellus dapibus vitae nunc non blandit. Morbi bibendum orci nec nunc pulvinar.",
-      "two": "Eget porttitor sapien tincidunt. Aenean fermentum venenatis sapien, mattis malesuada sem. Aenean eu viverra sapien, et fermentum est."
+      "titleOne": "Hendrerit nam",
+      "titleTwo": "Nisi elit",
+      "textOne": "Phasellus dapibus vitae nunc non blandit. Morbi bibendum orci nec nunc pulvinar.",
+      "textTwo": "Eget porttitor sapien tincidunt. Aenean fermentum venenatis sapien, mattis malesuada sem. Aenean eu viverra sapien, et fermentum est."
     }
   },
 
   "cohousing": {
    "history": {
-      "one": "Sed rutrum enim in egestas blandit. Sed id sapien hendrerit, pretium quam nec, maximus metus.",
-      "two": "Nullam dignissim eros lacus, a consectetur sem accumsan sagittis. Quisque congue elementum nisi, vel semper leo cursus vitae."
+      "titleOne": "Cursus vitae",
+      "titleTwo": "Porttitor bibendum,",
+      "textOne": "Sed rutrum enim in egestas blandit. Sed id sapien hendrerit, pretium quam nec, maximus metus.",
+      "textTwo": "Nullam dignissim eros lacus, a consectetur sem accumsan sagittis. Quisque congue elementum nisi, vel semper leo cursus vitae."
     },
     "potential layouts": {
-      "one": "Integer ante quam, tristique ullamcorper fermentum vitae, fermentum id mi.",
-      "two": "Duis id turpis eget felis consequat ultricies in ac arcu. Proin at orci sit amet sapien dictum malesuada eu in mauris."
+      "titleOne": "Sed at lacus",
+      "titleTwo": "Eu elit tempus",
+      "textOne": "Integer ante quam, tristique ullamcorper fermentum vitae, fermentum id mi.",
+      "textTwo": "Duis id turpis eget felis consequat ultricies in ac arcu. Proin at orci sit amet sapien dictum malesuada eu in mauris."
     }
   }
 }
