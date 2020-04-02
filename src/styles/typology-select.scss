@@ -70,7 +70,6 @@
 }
 
 .opportunity {
-  align-items: center;
   background-color: $color_bg-cyan;
   color: $color_font-contrast;
   display: flex;
@@ -90,6 +89,7 @@
   }
 
   &__icon {
+    align-self: center;
     font-size: 3rem;
     margin-right: 20px;
   }
