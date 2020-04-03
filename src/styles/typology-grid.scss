@@ -1,18 +1,51 @@
 .cell {
   &__wrapper {
-    height: max-content;
     position: relative;
     width: max-content;
   }
 
   &__title {
     background-color: $color_bg-violet;
-    color: $color_font-contrast;
+    color: rgba(255,255,255,1.7);
     display: inline;
     margin: 1rem;
     padding: .75rem 1rem;
     position: absolute;
-    top: .5rem;
     z-index: 10;
+  }
+
+  &__overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+
+    &--hover {
+      background-color: rgba(0, 0, 0, .7);
+    }
+  }
+}
+
+.overlay {
+  &__title {
+    color: rgba(255,255,255,1.7);
+    display: inline;
+    margin: 1rem;
+    padding: .75rem 1rem;
+    position: absolute;
+    z-index: 10;
+  }
+
+  &__description {
+    color: $color_font-contrast;
+    display: none;
+    margin: 1rem;
+    position: relative;
+    top: 4rem;
+
+    &--hover {
+      display: inline-block;
+    }
   }
 }

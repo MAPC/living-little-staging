@@ -2,15 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import definitions from '../content/definitions.json';
+import fullNames from '../content/full-names.json';
+
+const toggleClasses = () => {
+  document.querySelector('.cell__overlay').classList.toggle('cell__overlay--hover');
+  document.querySelector('.overlay__description').classList.toggle('overlay__description--hover');
+};
 
 const GridItem = ({ typology }) => {
   const data = useStaticQuery(graphql`
-  query {
-    file(relativePath: { eq: "grid/adu.jpg" }) {
+  {
+    file(relativePath: {eq: "grid/adu.jpg"}) {
       childImageSharp {
-        # Specify a fixed image and fragment.
-        # The default width is 400 pixels
-        fixed {
+        fixed(width: 600, height: 400) {
           ...GatsbyImageSharpFixed
         }
       }
@@ -19,11 +24,21 @@ const GridItem = ({ typology }) => {
 `);
   return (
     <div className="cell__wrapper">
-      <h3 className="h3 cell__title">{typology}</h3>
+      <h3 className="h3 cell__title">{fullNames[typology]}</h3>
       <Img
         fixed={data.file.childImageSharp.fixed}
-        alt="Gatsby Docs are awesome"
+        alt={typology}
+        className="cell__image"
+        style={{ display: 'block' }}
       />
+      <div
+        className="cell__overlay"
+        onMouseEnter={() => toggleClasses()}
+        onMouseLeave={() => toggleClasses()}
+      >
+        <h3 className="h3 overlay__title">{fullNames[typology]}</h3>
+        <p className="overlay__description">{definitions[typology]}</p>
+      </div>
     </div>
   );
 };
