@@ -37,7 +37,7 @@
 
   &__shadow {
     background: $color_highlight-yellow;
-    box-shadow: rgba(0, 0, 0, .25) 0 3px 6px;
+    box-shadow: $shadow-level-one;
     height: .25rem;
     left: 98px;
     opacity: .5;
@@ -56,7 +56,7 @@
 
   &__highlight {
     background: $color_highlight-yellow;
-    box-shadow: rgba(0, 0, 0, .25) 0 3px 6px;
+    box-shadow: $shadow-level-one;
     height: .25rem;
     left: -.25rem;
     opacity: .5;

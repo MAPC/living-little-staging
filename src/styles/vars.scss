@@ -4,8 +4,12 @@ $color_bg-cyan: #49849D;
 $color_accent-green: #8AAA8C;
 $color_accent-blue: #75BCE1;
 $color_font-contrast: #FFFFFF;
+$color_border-gray: #707070;
 $color_font-title: #414141;
 $color_font-default: #5C5C5C;
+
+$shadow-level-one: rgba(0, 0, 0, .25) 0 3px 6px;
+$shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
 
 $font_size-base: 16px;
 $font_size-base--rem: 1rem;
