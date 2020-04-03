@@ -18,7 +18,7 @@ const TypologySelect = () => {
   };
 
   return (
-    <section className="section">
+    <section className="section main-column">
       <h2 className="h2 typology-select__header" id="select">
         Explore
         {' '}
