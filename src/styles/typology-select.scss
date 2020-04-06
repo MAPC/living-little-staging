@@ -1,4 +1,14 @@
 .typology-select {
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__social-icon {
+    align-self: center;
+  }
+
   &__header {
     display: inline;
   }

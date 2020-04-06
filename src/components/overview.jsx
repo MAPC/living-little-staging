@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import definitions from '../../content/definitions.json';
-import aduTemp from '../../images/adu-temp.png';
-import tinyHouseTemp from '../../images/tinyhouse-temp.png';
-import rowHouseTemp from '../../images/rowhouse-temp.png';
-import mixedUseTemp from '../../images/mixed-use-temp.png';
-import cottageTemp from '../../images/cottage.gif';
-import cohousingTemp from '../../images/cohousingtemp.png';
-
+import definitions from '../content/definitions.json';
+import aduTemp from '../images/adu-temp.png';
+import tinyHouseTemp from '../images/tinyhouse-temp.png';
+import rowHouseTemp from '../images/rowhouse-temp.png';
+import mixedUseTemp from '../images/mixed-use-temp.png';
+import cottageTemp from '../images/cottage.gif';
+import cohousingTemp from '../images/cohousingtemp.png';
 
 const Overview = ({ typology }) => {
   const overviewGif = {

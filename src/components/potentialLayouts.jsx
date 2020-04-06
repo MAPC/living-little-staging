@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import SubtopicHeader from './subtopicHeader';
 import OpportunityButton from './opportunityButton';
-import opportunties from '../../content/opportunities.json';
+import opportunties from '../content/opportunities.json';
 
 const PotentialLayouts = ({ typology }) => (
   <article className="article">
