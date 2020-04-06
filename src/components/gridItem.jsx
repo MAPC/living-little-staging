@@ -1,32 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import definitions from '../content/definitions.json';
 import fullNames from '../content/full-names.json';
 
-const toggleClasses = () => {
-  document.querySelector('.cell__overlay').classList.toggle('cell__overlay--hover');
-  document.querySelector('.overlay__description').classList.toggle('overlay__description--hover');
-};
-
-const GridItem = ({ typology }) => {
-  const data = useStaticQuery(graphql`
-  {
-    file(relativePath: {eq: "grid/adu.jpg"}) {
-      childImageSharp {
-        fixed(width: 600, height: 400) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`);
+const GridItem = ({ typology, image }) => {
+  const toggleClasses = () => {
+    const parentNode = document.querySelector(`.cell__wrapper--${typology}`);
+    parentNode.querySelector('.cell__overlay').classList.toggle('cell__overlay--hover');
+    parentNode.querySelector('.overlay__description').classList.toggle('overlay__description--hover');
+  };
   return (
-    <div className="cell__wrapper">
+    <div className={`cell__wrapper cell__wrapper--${typology}`}>
       <h3 className="h3 cell__title">{fullNames[typology]}</h3>
       <Img
-        fixed={data.file.childImageSharp.fixed}
+        fixed={image}
         alt={typology}
         className="cell__image"
         style={{ display: 'block' }}
@@ -45,5 +33,6 @@ const GridItem = ({ typology }) => {
 
 GridItem.propTypes = {
   typology: PropTypes.node.isRequired,
+  image: PropTypes.string.isRequired,
 };
 export default GridItem;

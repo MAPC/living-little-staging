@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const TypologySelector = ({ updateTypology, currentTypology }) => {
   const selectWidth = {
     adu: 339,
-    'tiny house': 159,
-    'row house': 157,
+    'tinyhouse': 159,
+    'rowhouse': 157,
     'mixed-use': 505,
     cottage: 307,
     cohousing: 274,
@@ -27,8 +27,8 @@ const TypologySelector = ({ updateTypology, currentTypology }) => {
           }}
         >
           <option value="adu" className="dropdown__option" defaultValue>accessory dwelling unit</option>
-          <option value="tiny house">tiny house</option>
-          <option value="row house">row house</option>
+          <option value="tinyhouse">tiny house</option>
+          <option value="rowhouse">row house</option>
           <option value="mixed-use">small scale mixed-use development</option>
           <option value="cottage">cottage development</option>
           <option value="cohousing">cohousing building</option>
