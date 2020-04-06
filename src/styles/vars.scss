@@ -13,3 +13,18 @@ $shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
 
 $font_size-base: 16px;
 $font_size-base--rem: 1rem;
+
+// Media query
+@mixin media($size) {
+  @if $size == 'x-small' {
+    @media only screen and (max-width: 400px) { @content; }
+  } @else if $size == 'small' {
+    @media only screen and (max-width: 650px) { @content; }
+  } @else if $size == 'medium' {
+    @media only screen and (max-width: 800px) { @content; }
+  } @else if $size == 'large' {
+    @media only screen and (max-width: 1024px) { @content; }
+  } @else {
+    @media only screen and (max-width: $size) { @content; }
+  }
+}

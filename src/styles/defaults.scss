@@ -1,4 +1,7 @@
 html {
+  @include media(small) {
+    font-size: 16px;
+  }
   font-size: 20px;
   color: $color_font-default;
   font-family: 'Tw Cen MT';
@@ -22,6 +25,18 @@ body {
 }
 
 .main-column {
+  @include media(large) {
+    max-width: 800px;
+  }
+  @include media(medium) {
+    max-width: 600px;
+  }
+  @include media(small) {
+    max-width: 500px;
+  }
+  @include media('x-small') {
+    max-width: 100%;
+  }
   max-width: 1000px;
 }
 
@@ -42,4 +57,8 @@ body {
 .h4 {
   font-family: 'Tw Cen MT Bold';
   font-size: 1rem;
+}
+
+p {
+  margin: 1rem;
 }

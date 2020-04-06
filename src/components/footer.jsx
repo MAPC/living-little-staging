@@ -20,14 +20,11 @@ const Footer = () => {
 `);
   return (
     <footer className="footer">
-      <section className="footer__column">
+      <section className="footer__column footer__column--about">
         <h3 className="h3 footer__title">About MAPC</h3>
-        <p>The Metropolitan Area Planning Council (MAPC) is the regional planning agency serving the people who live and work in the 101 cities and towns of Metropolitan Boston.</p>
-        <a href="https://mapc.org" className="footer__link">
-          <img src={data.allFile.edges[0].node.publicURL} alt="MAPC Logo" className="mapc-logo" />
-        </a>
+        <p className="footer__paragraph">The Metropolitan Area Planning Council (MAPC) is the regional planning agency serving the people who live and work in the 101 cities and towns of Metropolitan Boston.</p>
       </section>
-      <section className="footer__column">
+      <section className="footer__column footer__column--links">
         <h3 className="h3 footer__title">Quick Links</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
@@ -41,11 +38,14 @@ const Footer = () => {
           </li>
         </ul>
       </section>
-      <section className="footer__column">
+      <section className="footer__column footer__column--explore">
         <h3 className="h3 footer__title">Explore</h3>
         <ul className="footer__list">
           <li className="footer__list-item">
             <a href="https://www.mapc.org/about-mapc/staff/" className="footer__link">Staff</a>
+          </li>
+          <li className="footer__list-item">
+            <a href="https://www.mapc.org/get-involved/metrofuture-our-regional-plan/" className="footer__link">MetroFuture</a>
           </li>
           <li className="footer__list-item">
             <a href="https://datacommon.mapc.org/" className="footer__link">DataCommon</a>
@@ -58,16 +58,21 @@ const Footer = () => {
           </li>
         </ul>
       </section>
-      <section className="footer__column">
+      <section className="footer__column footer__column--contact">
         <h3 className="h3 footer__title">Contact Us</h3>
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">60 Temple Place,</a>
         <br />
         <a href="https://goo.gl/maps/5GP7YcEtS1E2" className="footer__link">Boston, MA 02111</a>
         <br />
         <a href="tel:617-933-0700" className="footer__link">617-933-0700</a>
-        <p>
+        <p className="footer__paragraph">
           <a href="https://metrocommon.mapc.org" className="footer__link">metrocommon.mapc.org</a>
         </p>
+      </section>
+      <div className="footer__image-block">
+        <a href="https://mapc.org" className="footer__link footer__logo">
+          <img src={data.allFile.edges[0].node.publicURL} alt="MAPC Logo" className="footer__logo" />
+        </a>
         <div className="footer__social-list">
           <a href="https://twitter.com/MAPCMetroBoston" className="footer__link footer__icon">
             <FontAwesomeIcon icon={faTwitter} />
@@ -82,7 +87,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>
-      </section>
+      </div>
     </footer>
   );
 };

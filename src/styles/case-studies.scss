@@ -12,6 +12,26 @@
 
 .slides {
   &__wrapper {
+    @include media(large) {
+      height: 32rem;
+      width: 40rem;
+    }
+
+    @include media(medium) {
+      height: 24rem;
+      width: 30rem;
+    }
+
+    @include media(small) {
+      height: 19.2rem;
+      width: 24rem;
+    }
+
+    @include media('x-small') {
+      height: 12.6rem;
+      width: 16rem;
+    }
+
     box-shadow: rgba(0, 0, 0, .25) 0 3px 80px;
     height: 40rem;
     margin: 1rem auto;
