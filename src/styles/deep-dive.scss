@@ -1,18 +1,16 @@
-.typology-select {
-  &__top {
+.typology-selector {
+  &__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  &__social-icon {
-    align-self: center;
-  }
-
   &__header {
     display: inline;
   }
+}
 
+.dropdown {
   &__wrapper {
     display: inline;
 
@@ -29,7 +27,7 @@
     }
   }
 
-  &__selector {
+  &__select {
     -webkit-appearance: none;
     appearance: none;
     background: $color_font-contrast;
@@ -54,6 +52,38 @@
     position: relative;
     width: 340px;
     z-index: 10;
+  }
+}
+
+.social-sharing {
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__icon {
+    margin: .25rem;
+    
+    &--twitter:hover {
+      color: #1DA1F2;
+    }
+
+    &--facebook:hover {
+      color: #3B5998;
+    }
+
+    &--linkedin:hover {
+      color: #0077B5;
+    }
+
+    &--email:hover {
+      color: #D44638;
+    }
+
+    &--print:hover {
+      color: $color_font-title;
+    }
   }
 }
 

@@ -3,6 +3,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import TypologySelector from './typologySelector';
+import SocialSharing from './socialSharing';
 import Overview from './overview';
 import History from './history';
 import PotentialLayouts from './potentialLayouts';
@@ -13,7 +14,10 @@ const TypologyDeepDive = () => {
 
   return (
     <section className="section main-column">
-      <TypologySelector updateTypology={setTypology} currentTypology={typology} />
+      <div className="typology-selector__wrapper">
+        <TypologySelector updateTypology={setTypology} currentTypology={typology} />
+        <SocialSharing />
+      </div>
       <Overview typology={typology} />
       <History typology={typology} />
       <PotentialLayouts typology={typology} />
