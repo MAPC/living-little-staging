@@ -16,7 +16,6 @@ const Header = ({ siteTitle }) => {
   }
   
 `);
-console.log(data)
   return (
     <header className="header" style={{width: "100%"}}>
       <img src={data.fileName.childImageSharp.fluid.src} style={{width: "100%"}}/>

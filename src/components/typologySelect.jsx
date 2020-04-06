@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 import Overview from './typologySelect/overview';
 import History from './typologySelect/history';
 import PotentialLayouts from './typologySelect/potentialLayouts';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 const TypologySelect = () => {
   const [typology, setTypology] = useState('adu');
   const selectWidth = {
-    adu: 335,
-    'tiny house': 155,
-    'row house': 153,
-    'mixed-use': 501,
-    cottage: 303,
-    cohousing: 270,
+    adu: 339,
+    'tiny house': 159,
+    'row house': 157,
+    'mixed-use': 505,
+    cottage: 307,
+    cohousing: 274,
   };
 
   return (
@@ -43,7 +43,7 @@ const TypologySelect = () => {
       <div
         className="typology-select__shadow"
         style={{
-          left: typology === 'adu' ? '152px' : '135px',
+          left: typology === 'adu' ? '156px' : '139px',
           width: `${selectWidth[typology]}px`,
         }}
       />

@@ -95,9 +95,12 @@
 .anchor {
   &__wrapper {
     align-items: center;
+    bottom: 1rem;
     color: $color_font-title;
     display: flex;
     flex-direction: column;
+    float: right;
+    position: relative;
     text-decoration: none;
     width: 5.75rem;
   }

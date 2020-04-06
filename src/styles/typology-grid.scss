@@ -15,14 +15,18 @@
   }
 
   &__overlay {
+    -webkit-transition: background-color .25s;
     height: 100%;
     position: absolute;
     top: 0;
+    transition: background-color .25s;
     width: 100%;
     z-index: 20;
 
     &--hover {
+      -webkit-transition: background-color .25s;
       background-color: rgba(0, 0, 0, .7);
+      transition: background-color .25s;
     }
   }
 }
@@ -38,14 +42,18 @@
   }
 
   &__description {
+    -webkit-transition: display .25s;
     color: $color_font-contrast;
     display: none;
     margin: 1rem;
     position: relative;
     top: 4rem;
+    transition: display .25s;
 
     &--hover {
+      -webkit-transition: display .25s;
       display: inline-block;
+      transition: display .25s;
     }
   }
 }
