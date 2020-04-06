@@ -57,31 +57,38 @@
 
 .social-sharing {
   &__wrapper {
-    align-items: center;
+    @include media(large) {
+      flex-direction: row;
+      float: unset;
+      margin-bottom: 1rem;
+    }
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    float: left;
+    margin: 0 1rem;
   }
 
   &__icon {
+    font-size: 1.25rem;
     margin: .25rem;
     
-    &--twitter:hover {
+    &--twitter {
       color: #1DA1F2;
     }
 
-    &--facebook:hover {
+    &--facebook{
       color: #3B5998;
     }
 
-    &--linkedin:hover {
+    &--linkedin {
       color: #0077B5;
     }
 
-    &--email:hover {
+    &--email {
       color: #D44638;
     }
 
-    &--print:hover {
+    &--print {
       color: $color_font-title;
     }
   }

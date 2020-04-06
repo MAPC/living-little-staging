@@ -14,10 +14,7 @@ const TypologyDeepDive = () => {
 
   return (
     <section className="section main-column">
-      <div className="typology-selector__wrapper">
-        <TypologySelector updateTypology={setTypology} currentTypology={typology} />
-        <SocialSharing />
-      </div>
+      <TypologySelector updateTypology={setTypology} currentTypology={typology} />
       <Overview typology={typology} />
       <History typology={typology} />
       <PotentialLayouts typology={typology} />
