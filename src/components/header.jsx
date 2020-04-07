@@ -5,11 +5,13 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
-  {
-    fileName: file(relativePath: {eq: "temp-hero.png"}) {
+  query {
+    file(
+      relativePath: { eq: "temp-hero.png" }
+    ) {
       childImageSharp {
-        fluid(maxWidth: 1920) {
-          src
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -17,11 +19,15 @@ const Header = ({ siteTitle }) => {
   
 `);
   return (
-    <header className="header" style={{width: "100%"}}>
-      <img src={data.fileName.childImageSharp.fluid.src} style={{width: "100%"}}/>
+    <header className="header">
+      <Img
+        fluid={data.file.childImageSharp.fluid}
+        objectPosition="cover"
+        style={{ maxHeight: '30rem' }}
+      />
     </header>
   );
-}
+};
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
