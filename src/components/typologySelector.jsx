@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const TypologySelector = ({ updateTypology, currentTypology }) => {
   const selectWidth = {
     adu: 339,
-    'tinyhouse': 159,
-    'rowhouse': 157,
+    tinyhouse: 159,
+    rowhouse: 157,
     'mixed-use': 505,
     cottage: 307,
     cohousing: 274,
@@ -13,7 +13,7 @@ const TypologySelector = ({ updateTypology, currentTypology }) => {
 
   return (
     <div className="typology-selector">
-      <h2 className="h2 typology-selector__header" id="select">
+      <h2 className="h2 typology-selector__header" id="typology">
         Explore
         {' '}
         {currentTypology === 'adu' ? 'an ' : 'a '}
@@ -21,12 +21,16 @@ const TypologySelector = ({ updateTypology, currentTypology }) => {
       <div className="dropdown__wrapper">
         <select
           className="dropdown__select"
-          onChange={(event) => updateTypology(event.target.value)}
+          onChange={(event) => {
+            updateTypology(event.target.value);
+            history.pushState(null, '', `/#typology/${event.target.value}`);
+          }}
           style={{
             width: `${selectWidth[currentTypology] + 30}px`,
           }}
+          defaultValue={currentTypology}
         >
-          <option value="adu" className="dropdown__option" defaultValue>accessory dwelling unit</option>
+          <option value="adu">accessory dwelling unit</option>
           <option value="tinyhouse">tiny house</option>
           <option value="rowhouse">row house</option>
           <option value="mixed-use">small scale mixed-use development</option>
