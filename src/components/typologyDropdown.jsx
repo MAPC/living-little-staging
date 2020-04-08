@@ -1,14 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TypologySelector = ({ updateTypology, currentTypology }) => {
+const TypologyDropdown = ({ updateTypology, currentTypology }) => {
   const selectWidth = {
     adu: 339,
     tinyhouse: 159,
     rowhouse: 157,
-    'mixed-use': 505,
+    mixeduse: 505,
     cottage: 307,
     cohousing: 274,
+  };
+  const updateSelectClassnames = (newTypology) => {
+    document.querySelector('.dropdown__select').classList = [`dropdown__select dropdown__select--${newTypology}`];
+    document.querySelector('.dropdown__shadow').classList = [`dropdown__shadow dropdown__shadow--${newTypology}`];
   };
 
   return (
@@ -23,35 +27,27 @@ const TypologySelector = ({ updateTypology, currentTypology }) => {
           className="dropdown__select"
           onChange={(event) => {
             updateTypology(event.target.value);
+            updateSelectClassnames(event.target.value);
             history.pushState(null, '', `/#typology/${event.target.value}`);
-          }}
-          style={{
-            width: `${selectWidth[currentTypology] + 30}px`,
           }}
           defaultValue={currentTypology}
         >
           <option value="adu">accessory dwelling unit</option>
           <option value="tinyhouse">tiny house</option>
           <option value="rowhouse">row house</option>
-          <option value="mixed-use">small scale mixed-use development</option>
+          <option value="mixeduse">small scale mixed-use development</option>
           <option value="cottage">cottage development</option>
           <option value="cohousing">cohousing building</option>
         </select>
       </div>
-      <div
-        className="dropdown__shadow"
-        style={{
-          left: currentTypology === 'adu' ? '156px' : '139px',
-          width: `${selectWidth[currentTypology]}px`,
-        }}
-      />
+      <div className="dropdown__shadow" />
     </div>
   );
 };
 
-TypologySelector.propTypes = {
+TypologyDropdown.propTypes = {
   updateTypology: PropTypes.func.isRequired,
   currentTypology: PropTypes.string.isRequired,
 };
 
-export default TypologySelector;
+export default TypologyDropdown;

@@ -10,51 +10,6 @@
   }
 }
 
-.dropdown {
-  &__wrapper {
-    display: inline;
-
-    &::after {
-      bottom: .25rem;
-      color: $color_font-title;
-      content: '\f107';
-      font-family: 'Font Awesome 5 Free';
-      font-size: 2rem;
-      pointer-events: none;
-      position: relative;
-      right: 20px;
-      top: 7px;
-    }
-  }
-
-  &__select {
-    -webkit-appearance: none;
-    appearance: none;
-    background: $color_font-contrast;
-    border: none;
-    color: $color_font-title;
-    font-family: 'Tw Cen MT Condensed Bold';
-    font-size: 2rem;
-    padding-right: 2rem;
-  }
-
-  &__icon {
-    left: -1.5rem;
-    position: relative;
-  }
-
-  &__shadow {
-    background: $color_highlight-yellow;
-    box-shadow: $shadow-level-one;
-    height: .25rem;
-    left: 98px;
-    opacity: .5;
-    position: relative;
-    width: 340px;
-    z-index: 10;
-  }
-}
-
 .social-sharing {
   &__wrapper {
     @include media(large) {

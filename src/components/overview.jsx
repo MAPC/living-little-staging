@@ -12,9 +12,9 @@ import cohousingTemp from '../images/cohousingtemp.png';
 const Overview = ({ typology }) => {
   const overviewGif = {
     adu: aduTemp,
-    'tinyhouse': tinyHouseTemp,
-    'rowhouse': rowHouseTemp,
-    'mixed-use': mixedUseTemp,
+    tinyhouse: tinyHouseTemp,
+    rowhouse: rowHouseTemp,
+    mixeduse: mixedUseTemp,
     cottage: cottageTemp,
     cohousing: cohousingTemp,
   };
