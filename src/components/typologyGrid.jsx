@@ -7,14 +7,14 @@ const TypologyGrid = () => {
   {
     adu: file(relativePath: {eq: "grid/adu.jpg"}) {
       childImageSharp {
-        fixed(width: 1000, height: 667) {
+        fixed(width: 640, height: 427) {
           ...GatsbyImageSharpFixed
         }
       }
     },
     cottage: file(relativePath: {eq: "grid/cottage.jpg"}) {
       childImageSharp {
-        fixed(width: 1110, height: 1200) {
+        fixed(width: 592, height: 640) {
           ...GatsbyImageSharpFixed
         }
       }

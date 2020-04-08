@@ -2,7 +2,7 @@ import React from 'react';
 
 const CaseStudies = () => (
   <section className="section case-studies">
-    <div className="main-column case-studies__wrapper">
+    <div className="case-studies__wrapper">
       <h2 className="h2 case-studies__title">Case studies</h2>
       <div className="slides__wrapper">
         <iframe
