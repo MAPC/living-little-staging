@@ -1,5 +1,22 @@
-.dropdown {
+.typology-selector {
   &__wrapper {
+    @include media(medium) {
+      align-items: unset;
+      flex-direction: column;
+    }
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__header {
+    display: inline;
+    margin-bottom: 0;
+  }
+}
+
+.dropdown {
+  &__inner-wrapper {
     display: inline;
 
     &::after {
@@ -16,6 +33,7 @@
   }
 
   &__select {
+    @include media(small) { margin-left: -3px; }
     -webkit-appearance: none;
     appearance: none;
     background: $color_font-contrast;
@@ -23,31 +41,40 @@
     color: $color_font-title;
     font-family: 'Tw Cen MT Condensed Bold';
     font-size: 2rem;
-    padding-right: 1rem;
 
     &--adu {
-      width: 369px;
+      @include media(small) { width: 290px; }
+      width: 364px;
     }
 
     &--tinyhouse {
-      width: 189px;
+      @include media(small) { width: 150px; }
+      width: 185px;
     }
 
     &--rowhouse {
-      width: 187px;
+      @include media(small) { width: 148px; }
+      width: 182px;
     }
 
     &--mixeduse {
-      width: 535px;
+      @include media(small) { width: 425px; }
+      width: 527px;
     }
 
     &--cottage {
-      width: 337px;
+      @include media(small) { width: 265px; }
+      width: 330px;
     }
 
     &--cohousing {
-      width: 304px;
+      @include media(small) { width: 145px; }
+      width: 177px;
     }
+  }
+
+  &__option {
+    padding: 0;
   }
 
   &__icon {
@@ -59,39 +86,39 @@
     background: $color_highlight-yellow;
     box-shadow: $shadow-level-one;
     height: .25rem;
-    left: 98px;
     opacity: .5;
     position: relative;
     width: 340px;
     z-index: 10;
+
     &--adu {
-      left: 156px;
-      width: 339px;
+      @include media(small) { width: 265px; }
+      width: 330px;
     }
 
     &--tinyhouse {
-      left: 139px;
+      @include media(small) { width: 120px; }
       width: 159px;
     }
 
     &--rowhouse {
-      left: 139px;
+      @include media(small) { width: 120px; }
       width: 157px;
     }
 
     &--mixeduse {
-      left: 139px;
+      @include media(small) { width: 400px; }
       width: 505px;
     }
 
     &--cottage {
-      left: 139px;
+      @include media(small) { width: 240px; }
       width: 307px;
     }
 
     &--cohousing {
-      left: 139px;
-      width: 274px;
+      @include media(small) { width: 115px; }
+      width: 145px;
     }
   }
 }
