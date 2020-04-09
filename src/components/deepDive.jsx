@@ -10,7 +10,7 @@ import PotentialLayouts from './potentialLayouts';
 
 const TypologyDeepDive = () => {
   let initialTypology = 'adu';
-  let baseUrl = '/'
+  let baseUrl = '/';
   if (typeof window !== "undefined") {
     initialTypology = window.location.search.slice(10, -1) ? window.location.search.slice(10, -1) : 'adu';
     baseUrl = window.location.pathname;
@@ -18,11 +18,11 @@ const TypologyDeepDive = () => {
   const [typology, setTypology] = useState(initialTypology);
   return (
     <section className="section main-column">
-      <TypologyDropdown updateTypology={setTypology} currentTypology={typology} baseUrl={baseUrl} />
+      <TypologyDropdown updateTypology={setTypology} currentTypology={typology} />
       <Overview typology={typology} />
       <History typology={typology} />
       <PotentialLayouts typology={typology} />
-      <AnchorLink to='/#select' className="anchor__wrapper">
+      <AnchorLink to={`${baseUrl}#select`} className="anchor__wrapper">
         <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
         <span className="anchor__helper-text">Select another typology</span>
       </AnchorLink>

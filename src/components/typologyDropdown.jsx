@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const TypologyDropdown = ({ updateTypology, currentTypology, baseUrl }) => {
+const TypologyDropdown = ({ updateTypology, currentTypology }) => {
   const updateSelectClassnames = (newTypology) => {
     document.querySelector('.dropdown__select').classList = [`dropdown__select dropdown__select--${newTypology}`];
     document.querySelector('.dropdown__shadow').classList = [`dropdown__shadow dropdown__shadow--${newTypology}`];
@@ -27,7 +27,7 @@ const TypologyDropdown = ({ updateTypology, currentTypology, baseUrl }) => {
             onChange={(event) => {
               updateTypology(event.target.value);
               updateSelectClassnames(event.target.value);
-              history.pushState(null, '', `${baseUrl}?typology=${event.target.value}/#select`);
+              // history.pushState(null, '', `${baseUrl}?typology=${event.target.value}/#select`);
             }}
             defaultValue={currentTypology}
           >
@@ -48,7 +48,7 @@ const TypologyDropdown = ({ updateTypology, currentTypology, baseUrl }) => {
 TypologyDropdown.propTypes = {
   updateTypology: PropTypes.func.isRequired,
   currentTypology: PropTypes.string.isRequired,
-  baseUrl: PropTypes.string.isRequired,
+  // baseUrl: PropTypes.string.isRequired,
 };
 
 export default TypologyDropdown;
