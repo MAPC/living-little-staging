@@ -1,17 +1,27 @@
 .social-sharing {
   &__wrapper {
     @include media(large) {
+      display: flex;
       flex-direction: row;
       float: unset;
-      margin-bottom: 1rem;
+      margin: 1rem;
+      position: unset;
+      top: unset;
+      width: unset;
     }
-    display: flex;
-    flex-direction: column;
-    float: left;
-    margin: 0 1rem;
+    float: right;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
+    top: 2rem;
+    width: 1.5rem;
   }
 
   &__icon {
+    // @include media(large) {
+    //   font-size: 1rem;
+    // }
+    
     font-size: 1.25rem;
     margin: .25rem;
     
@@ -91,6 +101,17 @@
   }
 }
 
+.history {
+  &__paragraph {
+    margin-right: 2rem;
+  }
+}
+
+.potential-layouts {
+  &__paragraph {
+    margin-right: 2rem;
+  }
+}
 .anchor {
   &__wrapper {
     align-items: center;

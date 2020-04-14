@@ -6,7 +6,7 @@ import opportunties from '../content/opportunities.json';
 import history from '../content/history.json';
 
 const History = ({ typology }) => {
-  const historyParagraphs = history[typology].map(paragraph => <p>{paragraph}</p>);
+  const historyParagraphs = history[typology].map((paragraph) => <p className="history__paragraph">{paragraph}</p>);
   return (
     <article className="article">
       <SubtopicHeader title="History" highlightWidth={85} />

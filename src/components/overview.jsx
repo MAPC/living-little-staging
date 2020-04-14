@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import SocialSharing from './socialSharing';
 import definitions from '../content/definitions.json';
 import aduTemp from '../images/adu-temp.png';
 import tinyHouseTemp from '../images/tinyhouse-temp.png';
@@ -23,7 +22,6 @@ const Overview = ({ typology }) => {
     <article className="article overview">
       <p>{definitions[typology]}</p>
       <img src={overviewGif[typology]} className="overview__gif" />
-      <SocialSharing />
     </article>
   );
 };
