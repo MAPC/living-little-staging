@@ -16,6 +16,13 @@
 }
 
 .dropdown {
+  &__outer-wrapper {
+    @include media(medium) {
+      margin-left: 0;
+    }
+    margin-left: .5rem;
+  }
+
   &__inner-wrapper {
     display: inline;
 
