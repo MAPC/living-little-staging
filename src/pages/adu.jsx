@@ -6,7 +6,7 @@ import DeepDive from '../components/deepDive';
 import CaseStudies from '../components/caseStudies';
 import LearnMore from '../components/learnMore';
 
-const IndexPage = () => (
+const Adu = () => (
   <Layout>
     <SEO title="Living Little (Staging)" />
     <TypologyGrid />
@@ -16,4 +16,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default Adu;

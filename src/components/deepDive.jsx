@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons';
@@ -8,17 +8,14 @@ import History from './history';
 import PotentialLayouts from './potentialLayouts';
 
 
-const TypologyDeepDive = () => {
-  let initialTypology = 'adu';
+const TypologyDeepDive = ({ typology }) => {
   let baseUrl = '/';
   if (typeof window !== "undefined") {
-    initialTypology = window.location.search.slice(10, -1) ? window.location.search.slice(10, -1) : 'adu';
     baseUrl = window.location.pathname;
   }
-  const [typology, setTypology] = useState(initialTypology);
   return (
     <section className="section main-column">
-      <TypologyDropdown updateTypology={setTypology} currentTypology={typology} />
+      <TypologyDropdown typology={typology} />
       <Overview typology={typology} />
       <History typology={typology} />
       <PotentialLayouts typology={typology} />

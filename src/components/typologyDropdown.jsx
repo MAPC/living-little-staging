@@ -1,11 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { navigate } from 'gatsby';
 
-const TypologyDropdown = ({ updateTypology, currentTypology }) => {
-  const updateSelectClassnames = (newTypology) => {
-    document.querySelector('.dropdown__select').classList = [`dropdown__select dropdown__select--${newTypology}`];
-    document.querySelector('.dropdown__shadow').classList = [`dropdown__shadow dropdown__shadow--${newTypology}`];
-  };
+const TypologyDropdown = ({ typology }) => {
   const exploreText = {
     adu: 'Explore an',
     tinyhouse: 'Explore a',
@@ -15,21 +12,20 @@ const TypologyDropdown = ({ updateTypology, currentTypology }) => {
     cohousing: 'Explore',
   };
 
+
   return (
     <div className="typology-selector__wrapper">
       <h2 className="h2 typology-selector__header" id="select">
-        {exploreText[currentTypology]}
+        {exploreText[typology]}
       </h2>
       <div className="dropdown__outer-wrapper">
         <div className="dropdown__inner-wrapper">
           <select
-            className={`dropdown__select dropdown__select--${currentTypology}`}
+            className={`dropdown__select dropdown__select--${typology}`}
             onChange={(event) => {
-              updateTypology(event.target.value);
-              updateSelectClassnames(event.target.value);
-              // history.pushState(null, '', `${baseUrl}?typology=${event.target.value}/#select`);
+              navigate(`/${event.target.value}`);
             }}
-            defaultValue={currentTypology}
+            defaultValue={typology}
           >
             <option value="adu" className="dropdown__option">accessory dwelling unit</option>
             <option value="tinyhouse" className="dropdown__option">tiny house</option>
@@ -39,16 +35,14 @@ const TypologyDropdown = ({ updateTypology, currentTypology }) => {
             <option value="cohousing" className="dropdown__option">cohousing</option>
           </select>
         </div>
-        <div className={`dropdown__shadow dropdown__shadow--${currentTypology}`} />
+        <div className={`dropdown__shadow dropdown__shadow--${typology}`} />
       </div>
     </div>
   );
 };
 
 TypologyDropdown.propTypes = {
-  updateTypology: PropTypes.func.isRequired,
-  currentTypology: PropTypes.string.isRequired,
-  // baseUrl: PropTypes.string.isRequired,
+  typology: PropTypes.string.isRequired,
 };
 
 export default TypologyDropdown;

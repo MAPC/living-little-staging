@@ -6,14 +6,14 @@ import DeepDive from '../components/deepDive';
 import CaseStudies from '../components/caseStudies';
 import LearnMore from '../components/learnMore';
 
-const IndexPage = () => (
+const MixedUse = () => (
   <Layout>
     <SEO title="Living Little (Staging)" />
     <TypologyGrid />
-    <DeepDive typology="adu" />
+    <DeepDive typology="mixeduse" />
     <CaseStudies />
     <LearnMore />
   </Layout>
 );
 
-export default IndexPage;
+export default MixedUse;
