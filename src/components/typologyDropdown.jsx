@@ -23,7 +23,7 @@ const TypologyDropdown = ({ typology }) => {
           <select
             className={`dropdown__select dropdown__select--${typology}`}
             onChange={(event) => {
-              navigate(`/${event.target.value}`);
+              navigate(`/${event.target.value}#select`);
             }}
             defaultValue={typology}
           >
