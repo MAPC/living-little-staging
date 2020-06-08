@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"/I87":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("5nwJ"),i=n("L53u"),u=n("N0yU"),r=n("I6lM"),o=n("mFcy"),m=n("AWip");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(i.a,{title:"Living Little (Staging)"}),l.a.createElement(u.a,null),l.a.createElement(r.a,{typology:"cohousing"}),l.a.createElement(o.a,null),l.a.createElement(m.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-cohousing-jsx-81a64eff5781baef7707.js.map

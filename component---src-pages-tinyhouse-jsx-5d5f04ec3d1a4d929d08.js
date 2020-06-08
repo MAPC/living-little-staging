@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"Y+pA":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("5nwJ"),i=n("L53u"),u=n("N0yU"),r=n("I6lM"),o=n("mFcy"),p=n("AWip");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(i.a,{title:"Living Little (Staging)"}),l.a.createElement(u.a,null),l.a.createElement(r.a,{typology:"tinyhouse"}),l.a.createElement(o.a,null),l.a.createElement(p.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-tinyhouse-jsx-5d5f04ec3d1a4d929d08.js.map
