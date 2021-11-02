@@ -5,10 +5,10 @@ import { navigate } from 'gatsby';
 const TypologyDropdown = ({ typology }) => {
   const exploreText = {
     adu: 'Explore an',
+    cottage: 'Explore a',
     tinyhouse: 'Explore a',
     rowhouse: 'Explore a',
     mixeduse: 'Explore a',
-    cottage: 'Explore a',
     cohousing: 'Explore',
   };
 
@@ -28,10 +28,10 @@ const TypologyDropdown = ({ typology }) => {
             defaultValue={typology}
           >
             <option value="adu" className="dropdown__option">accessory dwelling unit</option>
+            <option value="cottage" className="dropdown__option">cottage development</option>
             <option value="tinyhouse" className="dropdown__option">tiny house</option>
             <option value="rowhouse" className="dropdown__option">row house</option>
             <option value="mixeduse" className="dropdown__option">small scale mixed-use development</option>
-            <option value="cottage" className="dropdown__option">cottage development</option>
             <option value="cohousing" className="dropdown__option">cohousing</option>
           </select>
         </div>

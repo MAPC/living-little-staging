@@ -17,7 +17,7 @@ body {
 }
 
 .section {
-  margin: 0 auto 5.5rem auto;
+  margin: 5.5rem auto 0 auto;
 }
 
 .article {
@@ -46,6 +46,7 @@ body {
   font-family: 'Tw Cen MT Condensed Bold';
   font-size: 2rem;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .h3 {
@@ -63,3 +64,4 @@ body {
 p {
   margin: 1rem;
 }
+
