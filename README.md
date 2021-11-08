@@ -132,8 +132,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
     ```shell
     yarn start
-    # or
-    netlify dev
     ```
 
 1.  **Deploy.**
@@ -142,7 +140,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
     ```shell
     yarn build
-    # or
+    # or to push to netlify hosting:
     netlify build
     ```
 
