@@ -159,8 +159,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
   **After attempting setup using npm:**
 
-    Deleted `package-lock.json`
-    
+    Deleted `package-lock.json`.
+
     ```shell
     rm -rf node_modules
     yarn cache clean
