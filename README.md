@@ -150,23 +150,19 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
   **Hosting on Netlify:**
 
-    ```shell
     netlify init
     netlify link
     netlify deploy
     netlify deploy --prod
-    ```
 
   **After attempting setup using npm:**
 
-    Deleted `package-lock.json`.
+    # deleted `package-lock.json`
 
-    ```shell
     rm -rf node_modules
     yarn cache clean
     yarn
     yarn start
-    ```
 
 
 
