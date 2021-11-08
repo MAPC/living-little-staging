@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "sed -i \"s|HEADER_PLACEHOLDER|${PROD_API_LOCATION}|g\" netlify.toml && yarn build"
 publish = "public/"
 
 [[plugins]]
