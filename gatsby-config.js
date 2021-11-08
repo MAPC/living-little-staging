@@ -11,7 +11,8 @@ module.exports = {
     'gatsby-plugin-anchor-links',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sass',
+    'gatsby-plugin-sass',    
+    // 'gatsby-plugin-netlify',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
