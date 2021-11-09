@@ -1,0 +1,35 @@
+.about-header {
+    &-container {
+        background-color: $color_bg-violet;
+        height: auto;
+        margin: 0;
+        padding: 5rem 0;
+    }
+    &-content {
+        color: $color_font-contrast;
+        height: 100%;
+        margin: auto;
+        max-width: 1000px;
+
+        &-link {
+            margin: inherit;
+            text-align: right;
+            width: 100%;
+            a {
+                color: $color_font-contrast;
+                text-decoration: none;
+                &:hover {
+                    color: $color_highlight-yellow;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &-title {
+            h1 {
+                font-size: $font_size-title;
+                margin: 0;
+            }
+        }
+    }
+}

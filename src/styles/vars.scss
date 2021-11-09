@@ -10,8 +10,8 @@ $color_font-default: #5C5C5C;
 $shadow-level-one: rgba(0, 0, 0, .25) 0 3px 6px;
 $shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
 
-$font_size-base: 16px;
-$font_size-base--rem: 1rem;
+$font_size-base: 1rem; //16px
+$font_size-title: 5rem; // 80px
 
 // Media query
 @mixin media($size) {
