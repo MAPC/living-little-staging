@@ -3,7 +3,7 @@ console.log(__dirname)
 module.exports = {
   pathPrefix: '/living-little-staging',
   siteMetadata: {
-    title: 'Living Little Staging',
+    title: 'living little',
     description: 'Staging site for MAPC\'s Living Little toolkit',
     author: '@MAPCMetroBoston',
   },

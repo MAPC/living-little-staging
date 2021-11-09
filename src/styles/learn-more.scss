@@ -13,8 +13,9 @@
     }
 
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-bottom: 4rem;
   }
 }
 
@@ -24,7 +25,9 @@
     border-radius: 5px;
     box-shadow: $shadow-level-one;
     display: flex;
+    flex-basis: 35%;
     justify-content: center;
+    margin: 1rem 0;
     width: 15rem;
     &:not(:last-child) {
       @include media(large) {
