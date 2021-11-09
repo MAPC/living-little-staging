@@ -97,3 +97,75 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+
+## Local Setup for Gatsby and Netlify
+
+1.  **Install packages.**
+
+    Use `yarn` as your package manager for installation and configuration, then manually install `netlify`.
+
+    ```shell
+    # install dependencies listed in package.json
+    yarn
+    ```
+
+1.  **Setup Netlify.**
+
+    Create a `netlify.toml` in the root of your project. Your file should include the plugins section below: 
+
+    ```shell
+    [build]
+    command = "sed -i \"s|HEADER_PLACEHOLDER|${PROD_API_LOCATION}|g\" netlify.toml && yarn build"
+    publish = "public/"
+
+    [[plugins]]
+    package = "@netlify/plugin-gatsby"
+    ```
+
+    Run this command to add the plugin:
+
+    ```shell
+    yarn add -D @netlify/plugin-gatsby
+    ```
+
+1.  **Start your development server.**
+
+    ```shell
+    yarn start
+    ```
+
+1.  **Deploy.**
+
+    The repository is set to build from the `/(root)` folder of the `gh-pages` branch and is published to [https://mapc.github.io/living-little-staging/](https://mapc.github.io/living-little-staging/).
+
+    ```shell
+    yarn build
+    # or to push to netlify hosting:
+    netlify build
+    ```
+
+## Troubleshooting
+
+  **Hosting on Netlify:**
+
+    netlify init
+    netlify link
+    netlify deploy
+    netlify deploy --prod
+
+  **After attempting setup using npm:**
+
+    # deleted `package-lock.json`
+
+    rm -rf node_modules
+    yarn cache clean
+    yarn
+    yarn start
+
+
+
+
+
+
+
+

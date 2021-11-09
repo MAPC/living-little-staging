@@ -4,7 +4,7 @@ import report from '../content/report.pdf'
 
 const LearnMore = () => (
   <section className="section main-column">
-    <p className="learn-more__text">Dig deeper into Living Little with these additional digital resources:</p>
+    <p className="learn-more__text">Dig deeper into Living Little with these additional resources:</p>
     <div className="learn-more__row">
       <CallToAction title="About Living Little" description="Read the project background" resource="/about/" />
       <CallToAction title="Full Report" description="Read the original Living Little report" resource={report} />
