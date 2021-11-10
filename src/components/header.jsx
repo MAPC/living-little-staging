@@ -5,41 +5,23 @@ import { useStaticQuery, graphql } from 'gatsby';
 import headerHouse from '../images/header-house.svg';
 
 const Header = ({ siteTitle }) => {
-  const data = useStaticQuery(graphql`
-  query {
-    file(
-      relativePath: { eq: "temp-hero.png" }
-    ) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-  
-`);
   return (
     <div>
       <div className="header-container">
         <div className="col-1"></div>
         <div className="col-2">
-          <div className="col-2-half">
+        </div>
+        <div className="col-2-half">
+          <div className="col-2-half-copy">
             <p>MAPC presents</p>
-            <h1>living little</h1>
+            <h1>{siteTitle}</h1>
           </div>
-          <div className="col-2-clip"></div>
+        </div>
+        <div className="col-2-description">
+          <p>The Greater Boston region is experiencing a housing crisis stemming from lack of affordable housing and appropriate housing types for current household incomes and formations. MAPC’s Living Little project investigates small housing typologies for MAPC’s South West Advisory Planning Committee (SWAP) and Three Rivers Interlocal Council (TRIC) subregions.</p>
         </div>
         <div className="col-3"></div>
       </div>
-
-      {/* <Img
-        fluid={data.file.childImageSharp.fluid}
-        objectPosition="cover"
-        style={{ maxHeight: '30rem' }}
-      /> */}
-      {/* <img id="header-house" src={headerHouse} /> */}
-
     </div>
   );
 };
