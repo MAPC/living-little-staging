@@ -1,6 +1,7 @@
 $color_highlight-yellow: #F5Cf67;
 $color_bg-violet: #96536C;
 $color_bg-cyan: #49849D;
+$color_bg-gray: rgba(235, 235, 235, .82);
 $color_accent-green: #8AAA8C;
 $color_accent-blue: #75BCE1;
 $color_font-contrast: #FFFFFF;
@@ -12,6 +13,7 @@ $shadow-level-one: rgba(0, 0, 0, .25) 0 3px 6px;
 $shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
 
 $font_size-base: 1rem; //16px
+$font_size-medium: 1.25rem; //20px
 $font_size-title: 5rem; // 80px
 
 // Media query

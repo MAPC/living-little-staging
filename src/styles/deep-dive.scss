@@ -1,3 +1,9 @@
+.deep-dive-container {
+  background-color: $color_bg-gray;
+  box-shadow: rgba(0, 0, 0, .5) 0 3px 20px;
+  padding: 4rem 0;
+}
+
 .social-sharing {
   &__wrapper {
     @include media(large) {
@@ -18,9 +24,6 @@
   }
 
   &__icon {
-    // @include media(large) {
-    //   font-size: 1rem;
-    // }
     
     font-size: 1.25rem;
     margin: .25rem;
@@ -112,6 +115,21 @@
     margin-right: 2rem;
   }
 }
+
+.questions {
+  margin-right: 2rem;
+  &__copy {
+    background-color: $color_font-contrast;
+    box-shadow: rgba(0, 0, 0, .25) 0 3px 80px;
+    margin: 1rem 0;
+    padding: 0.1rem 0;
+    &-question {
+      color: $color_font-black;
+      font-size: $font_size-medium;
+    }
+  }
+}
+
 .anchor {
   &__wrapper {
     align-items: center;

@@ -7,6 +7,8 @@ import TypologyDropdown from './typologyDropdown';
 import Overview from './overview';
 import History from './history';
 import PotentialLayouts from './potentialLayouts';
+import Questions from './questions';
+import CaseStudies from './caseStudies';
 
 
 const TypologyDeepDive = ({ typology }) => {
@@ -15,16 +17,20 @@ const TypologyDeepDive = ({ typology }) => {
     baseUrl = window.location.pathname;
   }
   return (
-    <section className="section main-column">
-      <TypologyDropdown typology={typology} />
-      <SocialSharing />
-      <Overview typology={typology} />
-      <History typology={typology} />
-      <PotentialLayouts typology={typology} />
-      <AnchorLink to={`${baseUrl}#select`} className="anchor__wrapper">
-        <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
-        <span className="anchor__helper-text">Select another typology</span>
-      </AnchorLink>
+    <section className="section deep-dive-container">
+      <div className="main-column">
+        <TypologyDropdown typology={typology} />
+        <SocialSharing />
+        <Overview typology={typology} />
+        <History typology={typology} />
+        <PotentialLayouts typology={typology} />
+        <Questions typology={typology} />
+        <CaseStudies typology={typology} />
+        <AnchorLink to={`${baseUrl}#select`} className="anchor__wrapper">
+          <FontAwesomeIcon icon={faArrowAltCircleUp} className="anchor__icon" />
+          <span className="anchor__helper-text">Select another typology</span>
+        </AnchorLink>
+      </div>
     </section>
   );
 };

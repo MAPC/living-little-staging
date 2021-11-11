@@ -5,8 +5,13 @@
       flex-direction: column;
     }
     align-items: baseline;
+    background-color: $color_font-contrast;
+    border-top: 7px solid #F5Cf6780;
+    box-shadow: rgba(0, 0, 0, .25) 0 3px 80px;
     display: flex;
     flex-direction: row;
+    margin: 1rem 0;
+    padding: 1rem;
   }
 
   &__header {
