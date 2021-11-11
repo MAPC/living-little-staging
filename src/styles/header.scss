@@ -1,6 +1,6 @@
 .header-container {
     background-image: url(../images/header-bg.svg);
-    background-size: cover;
+    background-position: center;
     display: grid;
     grid-template-columns: 1fr 1000px 1fr;
     grid-template-areas: "col1 col2 col3";
@@ -38,7 +38,7 @@
                 left: 0;
                 position: absolute;
                 top: -40%;
-                width: 0;
+                width: 0; 
             }
             &-copy {
                 padding: 1rem;
