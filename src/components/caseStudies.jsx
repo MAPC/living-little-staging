@@ -7,7 +7,7 @@ import SubtopicHeader from './subtopicHeader';
 const CaseStudies = ({ typology }) => {
 
   return (
-    <section className="section case-studies">
+    <section className="section case-studies main-column">
       <div className="case-studies__wrapper">
         <SubtopicHeader title="Case Studies" highlightWidth={142} />
         <div className="slides__wrapper">

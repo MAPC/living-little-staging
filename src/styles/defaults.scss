@@ -27,18 +27,22 @@ body {
 .main-column {
   @include media(large) {
     max-width: 800px;
+    padding: 1rem;
   }
   @include media(medium) {
     max-width: 600px;
+    padding: 1rem;
   }
   @include media(small) {
     max-width: 500px;
+    padding: 1rem;
   }
   @include media('x-small') {
     max-width: 100%;
+    padding: 1rem;
   }
   max-width: 1000px;
-  padding: 1rem 0;
+  padding: 1rem;
   margin: auto;
 }
 

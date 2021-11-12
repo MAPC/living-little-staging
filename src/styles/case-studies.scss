@@ -6,25 +6,31 @@
   justify-content: center;
 
   &__wrapper {
-    margin: 0 4rem 3rem 2rem;
+    width: 100%;
+    margin: 0 2rem 3rem 0;
   }
 }
 
 .slides {
   &__wrapper {
+
+    @media only screen and (max-width: 1010px) {
+      width: 100%;
+    }
+
     @include media(large) {
       height: 30.4rem;
-      width: 38rem;
+      width: 100%;
     }
 
     @include media(medium) {
       height: 22.4rem;
-      width: 28rem;
+      width: 100%;
     }
 
     @include media(small) {
       height: 23.4rem;
-      width: 29.25rem;
+      width: 100%;
     }
 
     @include media('x-small') {

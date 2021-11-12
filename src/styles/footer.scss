@@ -13,6 +13,10 @@
   @include media(medium) {
     padding: 1.2rem 3rem;
   }
+  @include media(small) {
+    display: block;
+    padding: 1.2rem 3rem;
+  }
   background-color: $color_bg-violet;
   color: $color_font-contrast;
   display: grid;
@@ -23,6 +27,7 @@
   padding: 3rem 5rem;
 
   &__column {
+    margin: 0.5rem;
     max-width: 12rem;
 
     &--about {
