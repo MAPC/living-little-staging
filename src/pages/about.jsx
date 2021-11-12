@@ -4,6 +4,7 @@ import AboutHeader from '../components/aboutHeader';
 import SubtopicHeader from '../components/subtopicHeader';
 import Footer from '../components/footer';
 import { useStaticQuery, graphql } from 'gatsby';
+import '../styles/about.scss';
 
 const AboutPage = () => {
     const data = useStaticQuery(graphql`
