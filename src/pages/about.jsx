@@ -7,20 +7,21 @@ import { useStaticQuery, graphql } from 'gatsby';
 // import '../styles/about.scss';
 
 const AboutPage = () => {
-    const data = useStaticQuery(graphql`
-    query siteTitleQueryAndSiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+//     const data = useStaticQuery(graphql`
+//     query siteTitleQueryAndSiteTitleQuery {
+//       site {
+//         siteMetadata {
+//           title
+//         }
+//       }
+//     }
+//   `);
 
   return (
   <>
     <SEO title="About living little" />
-    <AboutHeader siteTitle={data.site.siteMetadata.title}/>
+    {/* <AboutHeader siteTitle={data.site.siteMetadata.title}/> */}
+    <AboutHeader siteTitle="living little" />
     <section className="section main-column">
         <div className="about-container">
             <div className="about-text">
