@@ -7,7 +7,7 @@ import headerHouse from '../images/header-house.svg';
 const Header = ({ siteTitle }) => {
   return (
     <div>
-      <a href="/">
+      <a href="/living-little-staging/">
         <div className="header-container">
           <div className="col-1"></div>
           <div className="col-2">
