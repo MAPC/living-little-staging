@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const AboutHeader = ({siteTitle}) => {
     return (
         <div className="about-header-container">
-            <div className="about-header-content">
+            <div className="about-header-content main-column">
                 <div className="about-header-content-link">
                     <a href="/living-little-staging/">Return to Home Page</a>
                 </div>
