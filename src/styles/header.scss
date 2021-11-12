@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .header-container {
     background-image: url(../images/header-bg.svg);
     background-position: center;
@@ -5,6 +9,15 @@
     grid-template-columns: 1fr 1000px 1fr;
     grid-template-areas: "col1 col2 col3";
     height: 35rem;
+    @media only screen and (max-width: 1020px) {
+        grid-template-columns: 0 1fr 0;
+    }
+    @media only screen and (max-width: 850px) {
+        height: 48rem;
+    }
+    @media only screen and (max-width: 480px) {
+        height: 42rem;
+    }
 }
 
 .col {
@@ -62,6 +75,47 @@
             width: 80%;
             p {
                 margin: 1rem 0;
+            }
+        }
+
+        @media only screen and (max-width: 1020px) {
+            grid-template-columns: 0 1fr 0;
+            &-half {
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+        }
+        @media only screen and (max-width: 850px) {
+            clip-path: none;
+            &-half {
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+            &-description {
+                top: 75%;
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            clip-path: none;
+            &-half {
+                height: 40%;
+                margin-right: 2%;
+                margin-top: 210px;
+                width: 250px;
+                &:before {
+                    top: -139px;
+                }
+            }
+            &-description {
+                top: 72%;
             }
         }
     }

@@ -104,6 +104,12 @@
   }
 }
 
+.overview {
+  &__gif {
+    max-width: calc(100% - 2rem);
+  }
+}
+
 .history {
   &__paragraph {
     margin-right: 2rem;
@@ -111,10 +117,22 @@
 }
 
 .potential-layouts {
+  &__img {
+    max-width: calc(100% - 2rem);
+    > picture > img {
+      object-fit: contain;
+    }
+  }
   &__paragraph {
     margin-right: 2rem;
   }
 }
+
+// .gatsby-image-wrapper {
+//   > img {
+//     object-fit: contain;
+//   }
+// }
 
 .questions {
   margin-right: 2rem;
