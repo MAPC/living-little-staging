@@ -5,13 +5,13 @@ import TypologyGrid from '../components/typologyGrid';
 import DeepDive from '../components/deepDive';
 import LearnMore from '../components/learnMore';
 
-const RowHouse = () => (
+const Townhouse = () => (
   <Layout>
     <SEO title="Living Little (Staging)" />
     <TypologyGrid />
-    <DeepDive typology="rowhouse" />
+    <DeepDive typology="townhouse" />
     <LearnMore />
   </Layout>
 );
 
-export default RowHouse;
+export default Townhouse;

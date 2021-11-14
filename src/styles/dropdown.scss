@@ -67,7 +67,12 @@
       width: 185px;
     }
 
-    &--rowhouse {
+    // &--rowhouse {
+    //   @include media(small) { width: 148px; }
+    //   width: 182px;
+    // }
+
+    &--townhouse {
       @include media(small) { width: 148px; }
       width: 182px;
     }
