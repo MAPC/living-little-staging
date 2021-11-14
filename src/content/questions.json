@@ -63,6 +63,29 @@
         "textTwo": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
       }
     },
+
+    "sfc": {
+      "questions": {
+        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
+        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
+        "questionThree": "Won’t it feel cramped living so close to other houses?",
+        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
+        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
+        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
+      },
+      "history": {
+        "titleOne": "Convallis elementum",
+        "titleTwo": "Lorem donec",
+        "textOne": "Etiam sodales orci ut sapien ultrices efficitur. Vestibulum bibendum sit amet quam eu tempus.",
+        "textTwo": "Duis hendrerit pharetra congue. Nam euismod enim sagittis."
+      },
+      "potential layouts": {
+        "titleOne": "Nec iaculis erat",
+        "titleTwo": "Morbi imperdie",
+        "textOne": "Ultrices lacus a, iaculis lacus. Etiam laoreet sodales dui, id semper sem molestie suscipit.",
+        "textTwo": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
+      }
+    },
   
      "mixeduse": {      
       "questions": {
