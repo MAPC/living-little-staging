@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import definitions from '../content/definitions.json';
+import definitions from '../content/full-definitions.json';
 import aduTemp from '../images/adu-temp.png';
 import tinyHouseTemp from '../images/tinyhouse-temp.png';
 import rowHouseTemp from '../images/rowhouse-temp.png';

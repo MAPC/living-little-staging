@@ -1,0 +1,66 @@
+{
+    "adu": {
+      "advantages": [
+        "ADUs are often called “gentle density” because they expand housing options incrementally and within the context of a neighborhood.",
+        "ADUs offer creative options for multi-generational living, whether an adult child moving back home after college or a grandparent seeking to be closer to family support.",
+        "ADUs can provide extra income for homeowners on fixed incomes."
+      ],
+      "why": [
+        "Many towns do not allow ADUs, or only allow them under very limited conditions, such as requiring that the main house be built before a certain year or requiring that whoever lives in the ADU be related to a person living in the main house. These rules can be difficult to change because, in Massachusetts, zoning changes require a 2/3 majority at Town Meeting.",
+        "Because ADUs are most often built by regular homeowners, rather than professional developers, it can be difficult to finance them. It’s most common for homeowners to use a home equity loan, but other options are becoming more common."
+      ]
+    },
+    "tinyhouse": {
+      "advantages": [
+        "Some communities are now writing zoning specific to tiny houses, creating requirements for tiny house foundations, utility connection, and appearance. Tiny houses can also be permitted under existing zoning codes as mobile homes or accessory dwelling units with minor adjustments to town regulations, giving flexibility to communities in how they regulate this building type.",
+        "The International Building Code now has specific rules for Tiny Houses, providing consistent construction and safety standards.",
+        "While the market for tiny house villages is small, they are inexpensive housing options for those who do not require much space.",
+        "Thanks to television shows and social media, there is widespread interest in tiny houses, and they are becoming better understood by the general population."
+      ],
+      "why": [
+        "Tiny houses on wheels are usually permitted as a recreational vehicle (RV) or a mobile home, and are only allowed to be located in trailer parks or other areas where mobile homes are permitted. Many towns do not allow them at all.",
+        "Tiny houses without wheels are usually permitted as a detached accessory dwelling unit, which in many towns are either not permitted or are allowed only under restrictive conditions.",
+        "It can be challenging to connect a tiny house to basic infrastructure utilities, such as water, sewer, and electricity, in a safe manner that meets the town’s regulations. Some towns have addressed this by requiring that the tiny house be attached to a foundation or connected to town utilities.",
+        "Concerns about building standards, health, and fire safety can deter town officials from allowing tiny houses. Furthermore, self-built tiny houses may not always meet building standards, and would need to be upgraded to comply with health and fire codes.",
+        "Unlike other Living Little housing typologies, tiny houses are a relatively new phenomenon and their regulation continues to evolve."
+      ]
+    },
+    "townhouse": {
+      "advantages": [
+        "Advantages placeholder."
+      ],
+      "why": [
+        "Why don't I see more placeholder"
+      ]
+    },
+    "mixeduse": {
+      "advantages": [
+        "Advantages placeholder."
+      ],
+      "why": [
+        "Why don't I see more placeholder"
+      ]
+    },
+    "cottage": {
+      "advantages": [
+        "Cottage designs are often familiar to residents currently living in larger homes, and are unlikely to feel out-of-place in towns that have mostly detached single-family houses.",
+        "New zoning rules and design guidelines specifically for cottage developments can encourage cottage development that fits into existing communities.",
+        "Cottage developments can create a transition between retail areas and neighborhoods with larger single-family homes.",
+        "Cottage developments allow for creative approaches to parking that best suit the site.",
+        "The common open space at the heart of a cottage development is intended to foster a sense of community among neighbors. This focus on green space, walkability, and community has become increasingly popular, particularly for downsizing seniors."
+      ],
+      "why": [
+          "In many suburban towns, cottage clustered development is prohibited or requires an extensive approvals process.",
+          "Sometimes, the relatively higher density of cottage developments can be concerning by towns accustomed to single-family houses on large lots.",
+          "In smaller towns with limited water and sewer infrastructure, especially those that rely on septic systems, the higher density of cottage developments can pose a burden. However, cottage houses generally have fewer bedrooms and therefore accommodate fewer people than typical single-family houses, and cottage development site designs can be flexible enough to creatively approach limits to water and sewer capacity."
+      ]
+    },
+    "cohousing": {
+      "advantages": [
+        "Advantages placeholder."
+      ],
+      "why": [
+        "Why don't I see more placeholder"
+      ]
+    }
+  }

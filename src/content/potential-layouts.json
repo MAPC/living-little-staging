@@ -1,0 +1,14 @@
+{
+    "adu": [
+      "ADUs can vary widely in size, from as small as 250 square feet to as large as 1,200 square feet. Towns often limit the size of the ADU overall, or in relation to the main house (for example, the ADU cannot be larger than 30-40% of the main house’s area), to help ensure it is relatively lower cost. Building codes require an ADU to have its own bathroom, kitchen, and bedroom, separate from the main house."
+    ],
+    "tinyhouse": [
+        "As their name implies, tiny houses are tiny – less than 500 square feet. They make highly efficient use of space with features such as creative storage design or lofted beds. Sometimes a group of tiny houses can be clustered around a central open space or community building to form a “tiny house village,” with residents ranging from formerly homeless individuals to middle-income households."
+    ],
+    "townhouse": ["Townhouse history TBD"],
+    "mixeduse": ["Small scale mixed-use development history TBD"],
+    "cottage": [
+      "Cottage housing is typically 900-1,500 square feet and one- or two-stories tall. Cottages often have a porch or other community-oriented feature, and the overall site design—including pathways and common open space—is an important part of a cottage development."
+    ],
+    "cohousing": ["Cohousing history TBD"]
+  }
