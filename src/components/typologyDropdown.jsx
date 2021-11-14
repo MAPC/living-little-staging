@@ -7,7 +7,7 @@ const TypologyDropdown = ({ typology }) => {
     adu: 'Explore an',
     cottage: 'Explore a',
     tinyhouse: 'Explore a',
-    rowhouse: 'Explore a',
+    townhouse: 'Explore a',
     mixeduse: 'Explore a',
     cohousing: 'Explore',
   };
@@ -30,7 +30,7 @@ const TypologyDropdown = ({ typology }) => {
             <option value="adu" className="dropdown__option">accessory dwelling unit</option>
             <option value="cottage" className="dropdown__option">cottage development</option>
             <option value="tinyhouse" className="dropdown__option">tiny house</option>
-            <option value="rowhouse" className="dropdown__option">row house</option>
+            <option value="townhouse" className="dropdown__option">townhouse</option>
             <option value="mixeduse" className="dropdown__option">small scale mixed-use development</option>
             <option value="cohousing" className="dropdown__option">cohousing</option>
           </select>
