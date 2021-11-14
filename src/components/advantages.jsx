@@ -33,6 +33,10 @@ const Advantages = ({typology}) => {
             title: "Townhouses",
             width: "422" // need to adjust
         },
+        sfc: {
+            title: "Single-Family Conversions",
+            width: "422" // need to adjust
+        },
         mixeduse: {
             title: "Small Scale Mixed-Use Developments",
             width: "682"
@@ -58,6 +62,10 @@ const Advantages = ({typology}) => {
         },
         townhouse: {
             title: "Townhouses",
+            width: "422" // need to adjust
+        },
+        sfc: {
+            title: "Single-Family Conversions",
             width: "422" // need to adjust
         },
         mixeduse: {

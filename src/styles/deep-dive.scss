@@ -108,6 +108,9 @@
   &__gif {
     max-width: calc(100% - 2rem);
   }
+  &__image {
+    max-width: calc(50% - 2rem);
+  }
 }
 
 .history {
@@ -118,7 +121,7 @@
 
 .potential-layouts {
   &__img {
-    max-width: calc(100% - 2rem);
+    max-width: calc(50% - 2rem);
     > picture > img {
       object-fit: contain;
     }

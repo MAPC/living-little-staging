@@ -43,7 +43,20 @@
       "textTwo": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
     }
   },
-
+  "sfc": {
+    "history": {
+      "titleOne": "Convallis elementum",
+      "titleTwo": "Lorem donec",
+      "textOne": "Etiam sodales orci ut sapien ultrices efficitur. Vestibulum bibendum sit amet quam eu tempus.",
+      "textTwo": "Duis hendrerit pharetra congue. Nam euismod enim sagittis."
+    },
+    "potential layouts": {
+      "titleOne": "Nec iaculis erat",
+      "titleTwo": "Morbi imperdie",
+      "textOne": "Ultrices lacus a, iaculis lacus. Etiam laoreet sodales dui, id semper sem molestie suscipit.",
+      "textTwo": "Vivamus commodo massa non nulla placerat viverra. Nulla feugiat purus sed nunc congue, quis imperdiet nunc tempor."
+    }
+  },
    "mixeduse": {
     "history": {
         "titleOne": "Curabitur tempor",
