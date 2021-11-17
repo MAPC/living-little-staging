@@ -1,6 +1,4 @@
 .case-studies {
-  // background-color: rgba(235, 235, 235, .82);
-  // box-shadow: rgba(0, 0, 0, .16) 0 -3px 6px;
   clear: both;
   display: flex;
   justify-content: center;
@@ -38,7 +36,7 @@
       width: 100%;
     }
 
-    box-shadow: rgba(0, 0, 0, .25) 0 3px 80px;
+    box-shadow: $shadow-level-five;
     height: 38.4rem;
     margin: 1rem 0 0;
     width: 48rem;
