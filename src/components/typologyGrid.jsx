@@ -57,21 +57,23 @@ const TypologyGrid = () => {
   }
 `);
   return (
-    <section className="section main-column">
-      <div className="typology-grid-container">
-        <div className="typology-grid-text">
-          <h2 className="h2">What are the types of <br/>living little?</h2>
-          <div className="dropdown__shadow" style={{ width: "174px" }}></div>
-          <p>What some of the alternative housing opportunities available to meet an ever growing demand for housing in the region?</p>
-          <p>Here are seven alternative housing opportunities:</p>
+    <section className="section">
+      <div className="main-column">
+        <div className="typology-grid-container">
+          <div className="typology-grid-text">
+            <h2 className="h2">What are the types of <br/>living little?</h2>
+            <div className="dropdown__shadow" style={{ width: "174px" }}></div>
+            <p>What some of the alternative housing opportunities available to meet an ever growing demand for housing in the region?</p>
+            <p>Here are seven alternative housing opportunities:</p>
+          </div>
+          <GridItem typology="adu" image={data.adu.childImageSharp.fixed} />
+          <GridItem typology="cottage" image={data.cottage.childImageSharp.fixed} />
+          <GridItem typology="tinyhouse" image={data.tinyhouse.childImageSharp.fixed} />
+          <GridItem typology="townhouse" image={data.townhouse.childImageSharp.fixed} />
+          <GridItem typology="sfc" image={data.sfc.childImageSharp.fixed} />
+          <GridItem typology="mixeduse" image={data.mixeduse.childImageSharp.fixed} />
+          <GridItem typology="cohousing" image={data.cohousing.childImageSharp.fixed} />
         </div>
-        <GridItem typology="adu" image={data.adu.childImageSharp.fixed} />
-        <GridItem typology="cottage" image={data.cottage.childImageSharp.fixed} />
-        <GridItem typology="tinyhouse" image={data.tinyhouse.childImageSharp.fixed} />
-        <GridItem typology="townhouse" image={data.townhouse.childImageSharp.fixed} />
-        <GridItem typology="sfc" image={data.sfc.childImageSharp.fixed} />
-        <GridItem typology="mixeduse" image={data.mixeduse.childImageSharp.fixed} />
-        <GridItem typology="cohousing" image={data.cohousing.childImageSharp.fixed} />
       </div>
     </section>
   );

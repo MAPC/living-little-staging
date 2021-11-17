@@ -54,18 +54,20 @@
   &__title {
     display: inline;
     margin: 0;
+    position: relative;
     z-index: 10;
   }
 
   &__highlight {
     background: $color_highlight-yellow;
     box-shadow: $shadow-level-one;
-    height: .25rem;
-    left: -.25rem;
+    height: 0.8rem;
+    left: -0.25rem;
     max-width: 100%;
-    opacity: .5;
+    opacity: 0.8;
     position: relative;
-    z-index: 10;
+    top: -16px;
+    z-index: 0;
   }
 }
 
