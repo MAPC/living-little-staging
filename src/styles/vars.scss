@@ -11,6 +11,9 @@ $color_font-default: #5C5C5C;
 $color_font-black: #000000;
 $shadow-level-one: rgba(0, 0, 0, .25) 0 3px 6px;
 $shadow-level-two: rgba(0, 0, 0, .25) 0 3px 12px;
+$shadow-level-three: rgba(0, 0, 0, .5) 0 3px 20px; // deep dive container
+$shadow-level-four: 5px 5px 15px rgba(0,0,0,0.3); // oppotunities and dropdown
+$shadow-level-five: rgba(0, 0, 0, .2) 0 3px 50px; // soft, all four edges
 
 $font_size-base: 1rem; //16px
 $font_size-medium: 1.25rem; //20px
