@@ -19,35 +19,35 @@ const TypologyGrid = () => {
         }
       }
     },
-    tinyhouse: file(relativePath: {eq: "grid/tinyhouse.jpg"}) {
+    tinyhouse: file(relativePath: {eq: "grid/main-tinyhouse1.jpg"}) {
       childImageSharp {
         fixed(width: 640, height: 457) {
           ...GatsbyImageSharpFixed
         }
       }
     },
-    townhouse: file(relativePath: {eq: "grid/tinyhouse.jpg"}) {
+    townhouse: file(relativePath: {eq: "grid/main-townhouse1.png"}) {
       childImageSharp {
         fixed(width: 640, height: 457) {
           ...GatsbyImageSharpFixed
         }
       }
     },
-    sfc: file(relativePath: {eq: "grid/tinyhouse.jpg"}) {
+    sfc: file(relativePath: {eq: "grid/main-sfc1.jpg"}) {
       childImageSharp {
         fixed(width: 640, height: 457) {
           ...GatsbyImageSharpFixed
         }
       }
     },
-    mixeduse: file(relativePath: {eq: "grid/tinyhouse.jpg"}) {
+    mixeduse: file(relativePath: {eq: "grid/main-mixeduse1.jpg"}) {
       childImageSharp {
         fixed(width: 640, height: 457) {
           ...GatsbyImageSharpFixed
         }
       }
     },
-    cohousing: file(relativePath: {eq: "grid/tinyhouse.jpg"}) {
+    cohousing: file(relativePath: {eq: "grid/main-cohousing1.jpg"}) {
       childImageSharp {
         fixed(width: 640, height: 457) {
           ...GatsbyImageSharpFixed

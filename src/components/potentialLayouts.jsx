@@ -13,6 +13,7 @@ import layoutAdu3 from "../images/layout-adu3.png";
 import layoutAdu4 from "../images/layout-adu4.png";
 import layoutCottage1 from "../images/layout-cottage1.png";
 import layoutCottage2 from "../images/layout-cottage2.jpg";
+import layoutTinyhouse1 from "../images/layout-tinyhouse1.png";
 import layoutTownhouse1 from "../images/layout-townhouse1.jpg";
 import layoutTownhouse2 from "../images/layout-townhouse2.jpg";
 import layoutTownhouse3 from "../images/layout-townhouse3.png";
@@ -47,8 +48,8 @@ const PotentialLayouts = ({ typology }) => {
 
   const potentialLayoutImageSrc = {
     adu: [layoutAdu0],
-    cottage: [layoutCottage1, layoutCottage2],
-    tinyhouse: [],
+    cottage: [layoutCottage1],
+    tinyhouse: [layoutTinyhouse1],
     townhouse: [layoutTownhouse1, layoutTownhouse2, layoutTownhouse3, layoutTownhouse4],
     sfc: [layoutSfc1, layoutSfc2, layoutSfc3, layoutSfc4],
     mixeduse: [],
