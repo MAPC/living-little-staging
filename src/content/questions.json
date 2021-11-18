@@ -1,13 +1,19 @@
 {
     "adu": {
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-      },
+      "questions": [
+        {
+          "q": "How can my town’s sewer system handle this?",
+          "a": "The small size of ADUs makes their impact on public infrastructure minimal, especially when compared to large single-family homes or multifamily dwellings. For example, the impact of ten ADUs with two people living in each would have the same impact as that of four large single-family houses with five people living in each."
+        },
+        {
+          "q": "If my neighbor builds an ADU, will my property values go down?",
+          "a":  "That’s unlikely. There is no conclusive evidence that ADUs negatively impact property values; on the contrary, ADUs can increase surrounding property values.  Zoning bylaws can also be crafted to ensure the design of ADUs is in keeping with the surrounding neighborhood."
+        },
+        {
+          "q": "What if these increase the number of schoolchildren in town?",
+          "a": "ADUs’ impact on school system enrollment is usually very small, because ADUs are overwhelmingly occupied by small households without school-age children."
+        }
+      ],
       "history": {
         "titleOne": "Curabitur tempor",
         "titleTwo": "Blandit neque",
@@ -23,10 +29,12 @@
       },
   
     "tinyhouse": {
-      "questions": {
-        "questionOne": "If we allow tiny houses in my town, what if there’s a huge influx of transient people building tiny houses?",
-        "answerOne": "Despite their popularity in the media, only a small subset of people are willing to live in a tiny house, limiting their impact and prevalence. Zoning that limits the use of tiny houses as short-term rentals can to ensure they serve those who want to live in the community, and towns can limit the number of tiny houses permitted."
-      },
+      "questions": [
+        {
+          "q": "If we allow tiny houses in my town, what if there’s a huge influx of transient people building tiny houses?",
+          "a": "Despite their popularity in the media, only a small subset of people are willing to live in a tiny house, limiting their impact and prevalence. Zoning that limits the use of tiny houses as short-term rentals can to ensure they serve those who want to live in the community, and towns can limit the number of tiny houses permitted."
+        }
+      ],
       "history": {
         "titleOne": "Ac interdum",
         "titleTwo": "Proin sem",
@@ -42,14 +50,12 @@
     },
   
     "townhouse": {
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-      },
+      "questions": [
+        {
+          "q": "Need questions?",
+          "a": "Need answers."
+        }
+      ],
       "history": {
         "titleOne": "Convallis elementum",
         "titleTwo": "Lorem donec",
@@ -65,14 +71,12 @@
     },
 
     "sfc": {
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-      },
+      "questions": [
+        {
+          "q": "Need questions?",
+          "a": "Need answers."
+        }
+      ],
       "history": {
         "titleOne": "Convallis elementum",
         "titleTwo": "Lorem donec",
@@ -88,14 +92,12 @@
     },
   
      "mixeduse": {      
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-      },
+      "questions": [
+        {
+          "q": "Need questions?",
+          "a": "Need answers."
+        }
+      ],
       "history": {
           "titleOne": "Curabitur tempor",
           "titleTwo": "Eget ipsum",
@@ -111,14 +113,20 @@
     },
   
      "cottage": {
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-      },
+      "questions": [
+        {
+          "q": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
+          "a": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster."
+        },
+        {
+          "q": "Aren’t putting houses this close together a fire hazard?",
+          "a":  "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency."
+        },
+        {
+          "q": "Won’t it feel cramped living so close to other houses?",
+          "a": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
+        }
+      ],
       "history": {
         "titleOne": "Cursus vitae",
         "titleTwo": "Porttitor bibendum,",
@@ -134,14 +142,12 @@
     },
   
     "cohousing": {
-      "questions": {
-        "questionOne": "Who would want to live in a house where their parking or trash isn’t right next to their house?",
-        "questionTwo": "Aren’t putting houses this close together a fire hazard?",
-        "questionThree": "Won’t it feel cramped living so close to other houses?",
-        "answerOne": "Many people appreciate the compact, intimate cluster around shared green space that is created by putting the parking and trash at the back of a cottage cluster.",
-        "answerTwo": "Fire safety is very important, and can easily be accommodated in a cottage cluster. Creative site plan design can ensure proper access to and between the houses in the event of an emergency.",
-        "answerThree": "Cottage houses can be carefully designed so that they feel private – for example, windows can be staggered or private outdoor spaces can be put on one side of the house. Many people would be happy to live closer to other houses in exchange for the community-oriented atmosphere of a cottage cluster."
-        },
+      "questions": [
+        {
+          "q": "Need questions?",
+          "a": "Need answers."
+        }
+      ],
       "history": {
         "titleOne": "Cursus vitae",
         "titleTwo": "Porttitor bibendum,",
