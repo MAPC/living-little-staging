@@ -3,8 +3,9 @@ a {
 }
 
 .header-container {
-    background-image: url(../images/header-bg.svg);
+    background-image: url(../images/hero.jpg);
     background-position: center;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1000px 1fr;
     grid-template-areas: "col1 col2 col3";
@@ -68,17 +69,6 @@ a {
                 }
             }
         }
-        &-description {
-            color: $color_font-black;
-            grid-area: col2;
-            padding: 0 10%;
-            position: relative;
-            top: 80%;
-            width: 80%;
-            p {
-                margin: 1rem 0;
-            }
-        }
 
         @media only screen and (max-width: 1020px) {
             grid-template-columns: 0 1fr 0;
@@ -101,9 +91,6 @@ a {
                     top: -139px;
                 }
             }
-            &-description {
-                top: 75%;
-            }
         }
         @media only screen and (max-width: 480px) {
             clip-path: none;
@@ -115,9 +102,6 @@ a {
                 &:before {
                     top: -139px;
                 }
-            }
-            &-description {
-                top: 72%;
             }
         }
     }

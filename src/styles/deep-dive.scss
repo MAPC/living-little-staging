@@ -114,7 +114,7 @@
     max-width: calc(100% - 2rem);
   }
   &__image {
-    max-width: calc(50% - 2rem);
+    max-width: calc(100% - 2rem);
   }
 }
 
@@ -126,7 +126,7 @@
 
 .potential-layouts {
   &__img {
-    max-width: calc(50% - 2rem);
+    max-width: calc(100% - 2rem);
     > picture > img {
       object-fit: contain;
     }
@@ -135,12 +135,6 @@
     margin-right: 2rem;
   }
 }
-
-// .gatsby-image-wrapper {
-//   > img {
-//     object-fit: contain;
-//   }
-// }
 
 .questions {
   margin-right: 2rem;
@@ -174,13 +168,8 @@
   margin-bottom: 4rem;
   margin-right: 2rem;
   &__copy {
-    background-color: $color_font-contrast;
-    border-radius: 5px;
-    box-shadow: $shadow-level-five;
-    margin: 1rem 0;
-    padding: 0.1rem 0;
     &-li {
-      padding: 1rem;
+      padding: 0.5rem 1rem;
     }
   }
 }
@@ -189,13 +178,8 @@
   margin-bottom: 4rem;
   margin-right: 2rem;
   &__copy {
-    background-color: $color_font-contrast;
-    border-radius: 5px;
-    box-shadow: $shadow-level-five;
-    margin: 1rem 0;
-    padding: 0.1rem 0;
     &-li {
-      padding: 1rem;
+      padding: 0.5rem 1rem;
     }
   }
 }
