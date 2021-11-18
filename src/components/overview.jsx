@@ -9,6 +9,7 @@ import cottageTemp from '../images/cottage.gif';
 import cohousingTemp from '../images/cohousingtemp.png';
 import overviewAdu1 from "../images/overview-adu1.jpg";
 import overviewAdu2 from "../images/overview-adu2.jpg";
+import overviewTinyHouse1 from "../images/overview-tinyhouse.jpg";
 import overviewCottage1 from "../images/overview-cottage1.jpg";
 import overviewSfc1 from "../images/overview-sfc1.jpg";
 import overviewTownhouse from "../images/overview-townhouse1.jpg";
@@ -28,7 +29,7 @@ const Overview = ({ typology }) => {
   const overviewSrc = {
       adu: [overviewAdu1, overviewAdu2],
       cottage: [overviewCottage1],
-      tinyhouse: [],
+      tinyhouse: [overviewTinyHouse1],
       townhouse: [overviewTownhouse],
       sfc: [overviewSfc1],
       mixeduse: [],

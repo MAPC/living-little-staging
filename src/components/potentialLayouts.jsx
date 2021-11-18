@@ -6,6 +6,7 @@ import SubtopicHeader from './subtopicHeader';
 import OpportunityButton from './opportunityButton';
 import opportunties from '../content/opportunities.json';
 import potentialLayouts from '../content/potential-layouts.json';
+import layoutAdu0 from "../images/layout-adu.png";
 import layoutAdu1 from "../images/layout-adu1.jpg";
 import layoutAdu2 from "../images/layout-adu2.jpg";
 import layoutAdu3 from "../images/layout-adu3.png";
@@ -45,7 +46,7 @@ const PotentialLayouts = ({ typology }) => {
   const potentialLayoutParagraphs = potentialLayouts[typology].map((paragraph) => <p className="potential-layouts__paragraph">{paragraph}</p>);
 
   const potentialLayoutImageSrc = {
-    adu: [layoutAdu1, layoutAdu2, layoutAdu3, layoutAdu4],
+    adu: [layoutAdu0],
     cottage: [layoutCottage1, layoutCottage2],
     tinyhouse: [],
     townhouse: [layoutTownhouse1, layoutTownhouse2, layoutTownhouse3, layoutTownhouse4],
