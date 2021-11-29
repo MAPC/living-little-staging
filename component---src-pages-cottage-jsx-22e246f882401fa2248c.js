@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{ApgU:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("5nwJ"),i=a("L53u"),r=a("N0yU"),u=a("I6lM"),o=a("AWip"),p=a("+3LY");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(i.a,{title:"Living Little (Staging)"}),l.a.createElement(r.a,null),l.a.createElement(p.a,null),l.a.createElement(u.a,{typology:"cottage"}),l.a.createElement(o.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-cottage-jsx-22e246f882401fa2248c.js.map
