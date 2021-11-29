@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import GridItem from './gridItem';
+import SubtopicHeader from './subtopicHeader';
 
 const TypologyGrid = () => {
   const data = useStaticQuery(graphql`
@@ -61,8 +62,9 @@ const TypologyGrid = () => {
       <div className="main-column">
         <div className="typology-grid-container">
           <div className="typology-grid-text">
-            <h2 className="h2">What are the types of <br/>living little?</h2>
-            <div className="dropdown__shadow" style={{ width: "174px" }}></div>
+            <h2 className="h2">What are the types of</h2>
+            <SubtopicHeader title="living little?" highlightWidth="174" fontSize="2rem" />
+            {/* <div className="dropdown__shadow" style={{ width: "174px" }}></div> */}
             <p>What some of the alternative housing opportunities available to meet an ever growing demand for housing in the region?</p>
             <p>Here are seven alternative housing opportunities:</p>
           </div>
