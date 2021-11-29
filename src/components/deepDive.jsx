@@ -18,7 +18,7 @@ const TypologyDeepDive = ({ typology }) => {
     baseUrl = window.location.pathname;
   }
   return (
-    <section className="section deep-dive-container">
+    <section className="section deep-dive-container" id="select">
       <div className="main-column">
         <TypologyDropdown typology={typology} />
         <SocialSharing />
