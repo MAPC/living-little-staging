@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => {
           </div>
           <div className="col-2-half">
             <div className="col-2-half-copy">
-              <p>MAPC presents</p>
+              <p></p>
               <h1>{siteTitle}</h1>
             </div>
           </div>
