@@ -16,7 +16,7 @@ const TypologyDropdown = ({ typology }) => {
 
   return (
     <div className="typology-selector__wrapper">
-      <h2 className="h2 typology-selector__header" id="select">
+      <h2 className="h2 typology-selector__header">
         {exploreText[typology]}
       </h2>
       <div className="dropdown__outer-wrapper">
